@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="center" prefHeight="264.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sberApi.graphics.Controller">
+    <TextField prefHeight="57.0" prefWidth="366.0" fx:id="findField"/>
+
+    <TextArea editable="false" prefHeight="168.0" prefWidth="366.0" VBox.vgrow="ALWAYS" fx:id="userArea"/>
+
+    <HBox alignment="CENTER">
+        <Button alignment="CENTER" prefHeight="51.0" prefWidth="132.0" text="Отправить" onAction="#findContract"/>
+    </HBox>
+
+</VBox>

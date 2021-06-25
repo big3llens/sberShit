@@ -1,0 +1,3745 @@
+﻿<ValueTable xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://v8.1c.ru/8.1/data/core ">
+	<column>
+		<Name>НомерСтроки</Name>
+		<ValueType>
+			<Type>xs:decimal</Type>
+			<NumberQualifiers>
+				<Digits>0</Digits>
+				<FractionDigits>0</FractionDigits>
+				<AllowedSign>Any</AllowedSign>
+			</NumberQualifiers>
+		</ValueType>
+		<Title>N</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>НомерДоговора</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>100</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Номер договора</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>ДатаДоговора</Name>
+		<ValueType>
+			<Type>xs:dateTime</Type>
+			<DateQualifiers>
+				<DateFractions>Date</DateFractions>
+			</DateQualifiers>
+		</ValueType>
+		<Title>Дата договора</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>ДепонируемаяСумма</Name>
+		<ValueType>
+			<Type>xs:decimal</Type>
+			<NumberQualifiers>
+				<Digits>15</Digits>
+				<FractionDigits>2</FractionDigits>
+				<AllowedSign>Any</AllowedSign>
+			</NumberQualifiers>
+		</ValueType>
+		<Title>Депонируемая сумма</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>НаименованиеЖК</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>250</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Наименование ЖК</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>НомерУчастка</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>100</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Номер участка</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>УсловныйНомерОбъекта</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>100</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Условный номер объекта</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>Дольщик</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>300</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Дольщик</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>ТипДокумента</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>200</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Тип документа</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>СерияДокумента</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>200</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Серия документа</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>НомерДокумента</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>200</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Номер документа</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>ДатаВыдачиДокумента</Name>
+		<ValueType>
+			<Type>xs:dateTime</Type>
+			<DateQualifiers>
+				<DateFractions>Date</DateFractions>
+			</DateQualifiers>
+		</ValueType>
+		<Title>Дата выдачи документа</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>КемВыданДокумент</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>500</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Кем выдан документ</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>АдресРегистрации</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>500</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Адрес регистрации</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>АдресПроживания</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>500</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Адрес проживания</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>Телефон</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>50</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Телефон</Title>
+		<Width>10</Width>
+	</column>
+	<column>
+		<Name>ЭлектроннаяПочта</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>50</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Title>Электронная почта</Title>
+		<Width>10</Width>
+	</column>
+	<row>
+		<Value xsi:type="xs:decimal">1</Value>
+		<Value xsi:type="xs:string">020-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-10T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5286000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">020</Value>
+		<Value xsi:type="xs:string">Воронин Сергей Анатольевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 12</Value>
+		<Value xsi:type="xs:string">532813</Value>
+		<Value xsi:type="xs:dateTime">2012-08-20T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 28 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Маршала Казакова, д.13, кв.21</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Маршала Казакова, д.13, кв.21</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">2</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5236000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">023</Value>
+		<Value xsi:type="xs:string">Табакарь Денис Анатольевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4103</Value>
+		<Value xsi:type="xs:string">691035</Value>
+		<Value xsi:type="xs:dateTime">2005-06-02T00:00:00</Value>
+		<Value xsi:type="xs:string">Управлением внутренних дел Гатчинского района Ленинградской области</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., г. Гатчина, ул.Чкалова, дом № 17/2, кв.34</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., г.Гатчина, ул. Чкалова, дом № 17/2, кв.34</Value>
+		<Value xsi:type="xs:string">+7 (911) 926-43-20</Value>
+		<Value xsi:type="xs:string">Denistabakar@rambler.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">3</Value>
+		<Value xsi:type="xs:string">049-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">3815459</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">049</Value>
+		<Value xsi:type="xs:string">Сахаватов Салават Нажмутдинович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">82 10</Value>
+		<Value xsi:type="xs:string">860189</Value>
+		<Value xsi:type="xs:dateTime">2010-06-29T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделением УФМС России по Республике Дагестан в Буйнакском районе</Value>
+		<Value xsi:type="xs:string">Республика Дагестан, г. Буйнакск, ул. Аликълыча, д.4,</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр. Маршала Казакова, д. 84, корп.1, кв.329</Value>
+		<Value xsi:type="xs:string">+7 (928) 547-43-43</Value>
+		<Value xsi:type="xs:string">sahavatovsalavat1983@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">4</Value>
+		<Value xsi:type="xs:string">053-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-16T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5889323</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">053</Value>
+		<Value xsi:type="xs:string">Марченко Оксана Степановна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">41 14</Value>
+		<Value xsi:type="xs:string">619261</Value>
+		<Value xsi:type="xs:dateTime">2014-09-03T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделением УФМС России по Санкт-Петербургу и Ленинградской обл. в г. Сосновый Бор
+		</Value>
+		<Value xsi:type="xs:string">гор. Сосновый Бор, ул. Парковая, дом№15, кв.45</Value>
+		<Value xsi:type="xs:string">гор. Сосновый Бор, ул. Парковая, дом№15, кв.45</Value>
+		<Value xsi:type="xs:string">+7 (921) 308-46-21</Value>
+		<Value xsi:type="xs:string">marchenko@vnipiet.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">5</Value>
+		<Value xsi:type="xs:string">054-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-08T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4769700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">054</Value>
+		<Value xsi:type="xs:string">Кугач Юрий Алексеевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 15</Value>
+		<Value xsi:type="xs:string">389434</Value>
+		<Value xsi:type="xs:dateTime">2016-01-12T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №40 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Красносельский р-н, пр-кт Ветеранов, дом 130, кв. 575</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Красносельский р-н, пр-кт Ветеранов, дом 130, кв. 575</Value>
+		<Value xsi:type="xs:string">+7 (911) 211-25-22</Value>
+		<Value xsi:type="xs:string">kugach70@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">6</Value>
+		<Value xsi:type="xs:string">058-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-02T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5889323</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">058</Value>
+		<Value xsi:type="xs:string">Сынгаевский Денис Всеволодович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 00</Value>
+		<Value xsi:type="xs:string">700181</Value>
+		<Value xsi:type="xs:dateTime">2002-01-14T00:00:00</Value>
+		<Value xsi:type="xs:string">42 отделом милиции Красносельского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, б-р Балтийский, дом № 4 стр.1, кв.602</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, б-р Балтийский, дом № 4 стр.1, кв.602</Value>
+		<Value xsi:type="xs:string">+7(911)836-65-91</Value>
+		<Value xsi:type="xs:string">grerty@rambler.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">7</Value>
+		<Value xsi:type="xs:string">059-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-31T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4789700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">059</Value>
+		<Value xsi:type="xs:string">Серебренникова Анна Сергеевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">1115</Value>
+		<Value xsi:type="xs:string">002318</Value>
+		<Value xsi:type="xs:dateTime">2014-07-23T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделом УФМС России по Архангельской области в городе Котласе</Value>
+		<Value xsi:type="xs:string">Архангельская обл., Котласский, гор. Котлас, ул.70 лет Октября, дом № 17-А, кв.14
+		</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург</Value>
+		<Value xsi:type="xs:string">+7 (911) 659-25-88</Value>
+		<Value xsi:type="xs:string">serebridze@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">8</Value>
+		<Value xsi:type="xs:string">072-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-18T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8865550</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">072</Value>
+		<Value xsi:type="xs:string">Афанасьева Ольга Павловна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">41 99</Value>
+		<Value xsi:type="xs:string">079485</Value>
+		<Value xsi:type="xs:dateTime">1999-11-29T00:00:00</Value>
+		<Value xsi:type="xs:string">Сланцевским ОВД Ленинградской обл.</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Красносельский р-н, ул. Пограничника Горькавого, дом 40,
+			корп.6, кв.105.
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Красносельский р-н, ул. Пограничника Горькавого, дом 40,
+			корп.6, кв.105.
+		</Value>
+		<Value xsi:type="xs:string">+7 (921) 586-24-45</Value>
+		<Value xsi:type="xs:string">af.olga@bk.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">9</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">9175700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">076</Value>
+		<Value xsi:type="xs:string">Калашников Евгений Владимирович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">47 03</Value>
+		<Value xsi:type="xs:string">831526</Value>
+		<Value xsi:type="xs:dateTime">2003-12-25T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделом Внутренних дел Первомайского округа города Мурманска</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, Ленинский пр-кт, дом 56, стр.1, кв.150.
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, Ленинский пр-кт, дом 56, стр.1, кв.150.
+		</Value>
+		<Value xsi:type="xs:string">+7 (911) 767-89-70</Value>
+		<Value xsi:type="xs:string">Jeff_greg@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">10</Value>
+		<Value xsi:type="xs:string">111-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-13T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5644323</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">111</Value>
+		<Value xsi:type="xs:string">Петухова Юлия Андреевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 14</Value>
+		<Value xsi:type="xs:string">014396</Value>
+		<Value xsi:type="xs:dateTime">2014-06-05T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №40Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Красносельский р-н, ул. Добровольцев, дом 10, кв.39.</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Красносельский р-н, ул. Добровольцев, дом 10, кв.39.</Value>
+		<Value xsi:type="xs:string">+7 (981) 696-22-90</Value>
+		<Value xsi:type="xs:string">ylia2194@bk.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">11</Value>
+		<Value xsi:type="xs:string">115-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-13T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6397000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">115</Value>
+		<Value xsi:type="xs:string">Абрамов Станислав Владимирович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4002</Value>
+		<Value xsi:type="xs:string">628899</Value>
+		<Value xsi:type="xs:dateTime">2002-06-28T00:00:00</Value>
+		<Value xsi:type="xs:string">28 отделом милиции Центрального района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">Ранее зарегистрирован по адресу: Санкт-Петербург, Владимирский пр., дом 15, кв. 38
+		</Value>
+		<Value xsi:type="xs:string">Санкт-Петербург, пр.Героев, дом 34, кв. 181</Value>
+		<Value xsi:type="xs:string">+7 (981) 795-08-88</Value>
+		<Value xsi:type="xs:string">Abrams-spb@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">12</Value>
+		<Value xsi:type="xs:string">118-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-15T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6238487</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">118</Value>
+		<Value xsi:type="xs:string">Моисеева Лена Абдуллаевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">75 18</Value>
+		<Value xsi:type="xs:string">137810</Value>
+		<Value xsi:type="xs:dateTime">2018-06-07T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по Челябинской области</Value>
+		<Value xsi:type="xs:string">Челябинская обл., гор. Магнитогорск, ул. Карагайская, дом 4</Value>
+		<Value xsi:type="xs:string">Челябинская обл., гор. Магнитогорск, ул. Карагайская, дом 4</Value>
+		<Value xsi:type="xs:string">+7 (919) 119-07-07</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">13</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6518000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">119</Value>
+		<Value xsi:type="xs:string">Гончар Андрей Анатольевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4103</Value>
+		<Value xsi:type="xs:string">667463</Value>
+		<Value xsi:type="xs:dateTime">2005-04-28T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделом внутренних дел Киришского района Ленинградской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Героев, дом 27, корп. 1, кв. 44</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Героев, дом 27, корп. 1, кв. 44</Value>
+		<Value xsi:type="xs:string">+7 (921) 356-21-67</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">14</Value>
+		<Value xsi:type="xs:string">122-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-31T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8042700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">122</Value>
+		<Value xsi:type="xs:string">Смирнова Галина Викторовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 18</Value>
+		<Value xsi:type="xs:string">089042</Value>
+		<Value xsi:type="xs:dateTime">2018-07-02T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ш. Петергофское, дом 13, корп. 1, кв. 183</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ш. Петергофское, дом 13, корп. 1, кв. 183</Value>
+		<Value xsi:type="xs:string">+7 (911) 977-43-00</Value>
+		<Value xsi:type="xs:string">gals73@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">15</Value>
+		<Value xsi:type="xs:string">123-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-31T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6568000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">123</Value>
+		<Value xsi:type="xs:string">Корюкин Михаил Борисович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">6504</Value>
+		<Value xsi:type="xs:string">106250</Value>
+		<Value xsi:type="xs:dateTime">2003-05-12T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделом внутренних дел ЗАТО пос. Свободный Свердловской обл.</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Ленинский пр., дом № 76, корпус 1, кв.131</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, Ленинский пр., дом № 76, корпус 1, кв.131</Value>
+		<Value xsi:type="xs:string">+7 (962) 696-31-76</Value>
+		<Value xsi:type="xs:string">korukin1@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">16</Value>
+		<Value xsi:type="xs:string">124-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-09T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8787402</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">124</Value>
+		<Value xsi:type="xs:string">Лукашевич Марина Викторовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4714</Value>
+		<Value xsi:type="xs:string">466238</Value>
+		<Value xsi:type="xs:dateTime">2014-08-28T00:00:00</Value>
+		<Value xsi:type="xs:string">отделом УФМС России по Мурманской области в Первомайском АО города Мурманска</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Рубинштейна, д. 19/8, лит. А, кв. 14</Value>
+		<Value xsi:type="xs:string">191002, г. Санкт-Петербург, ул. Рубинштейна, д. 19/8, лит. А, кв. 14</Value>
+		<Value xsi:type="xs:string">+7 (911) 806-14-44</Value>
+		<Value xsi:type="xs:string">mv_avto@list.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">17</Value>
+		<Value xsi:type="xs:string">131-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2020-12-30T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5113510</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">131</Value>
+		<Value xsi:type="xs:string">Хатрусов Денис Вадимович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4005</Value>
+		<Value xsi:type="xs:string">302188</Value>
+		<Value xsi:type="xs:dateTime">2004-04-09T00:00:00</Value>
+		<Value xsi:type="xs:string">74 отделом милиции Красносельского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Доблести, дом № 18, корпус 1, кв.727</Value>
+		<Value xsi:type="xs:string">198332, г. Санкт-Петербург, ул. Доблести, дом № 18, корпус 1, кв.727</Value>
+		<Value xsi:type="xs:string">+7 (951) 664-28-14</Value>
+		<Value xsi:type="xs:string">9886767@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">18</Value>
+		<Value xsi:type="xs:string">144-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-25T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8963150</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">144</Value>
+		<Value xsi:type="xs:string">Калабанова Татьяна Андреевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4110</Value>
+		<Value xsi:type="xs:string">340687</Value>
+		<Value xsi:type="xs:dateTime">2011-10-21T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 138 отделения УФМС России по Санкт-Петербургу и Ленинградской обл. в
+			Кингисеппском р-не
+		</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., Кингисеппский р-н, п.Усть-Луга, кв-л Ленрыба, дом № 69</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., Кингисеппский р-н, п. Усть-Луга, кв-л Ленрыба, дом № 69</Value>
+		<Value xsi:type="xs:string">+7 (981) 973-71-93</Value>
+		<Value xsi:type="xs:string">Tanyakalabanova@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">19</Value>
+		<Value xsi:type="xs:string">149-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">10591480</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">149</Value>
+		<Value xsi:type="xs:string">Лаврухин Владислав Александрович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 12</Value>
+		<Value xsi:type="xs:string">708745</Value>
+		<Value xsi:type="xs:dateTime">2013-05-21T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №82 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Центральном
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Сантк-Петербург, ул. Рубинштейна, дом 6, кв.23</Value>
+		<Value xsi:type="xs:string">гор. Сантк-Петербург, ул. Рубинштейна, дом 6, кв.23</Value>
+		<Value xsi:type="xs:string">+7 (981) 803-41-78</Value>
+		<Value xsi:type="xs:string">avegac@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">20</Value>
+		<Value xsi:type="xs:string">150-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6363122</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">150</Value>
+		<Value xsi:type="xs:string">Горецкий Игорь Михайлович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">49 028</Value>
+		<Value xsi:type="xs:string">892230</Value>
+		<Value xsi:type="xs:dateTime">2009-05-24T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП УФМС России по Новгородской области в Хвойнинском районе</Value>
+		<Value xsi:type="xs:string">Ленинградская обл. Всеволожский р-н, пос. Мурино, б-р Воронцовский бульвар, д. 6,
+			кв. 647
+		</Value>
+		<Value xsi:type="xs:string">Ленинградская обл. Всеволожский р-н, пос. Мурино, б-р Воронцовский бульвар, д. 6,
+			кв. 647
+		</Value>
+		<Value xsi:type="xs:string">+7 (960) 259-17-33</Value>
+		<Value xsi:type="xs:string">igoryok-777@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">21</Value>
+		<Value xsi:type="xs:string">159-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-05T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5882930</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">159</Value>
+		<Value xsi:type="xs:string">Глухова Надежда Анатольевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">9403</Value>
+		<Value xsi:type="xs:string">224170</Value>
+		<Value xsi:type="xs:dateTime">2003-08-04T00:00:00</Value>
+		<Value xsi:type="xs:string">отделом внутренних дел города Сарапула Удмуртской Республики</Value>
+		<Value xsi:type="xs:string">Удмуртская Республика, гор. Сарапул, ул. Жуковского, дом 11а, кв. 30</Value>
+		<Value xsi:type="xs:string">427961, Удмуртская Республика, гор. Сарапул, ул. Жуковского, дом 11а, кв. 30</Value>
+		<Value xsi:type="xs:string">+7 (922) 500-90-56</Value>
+		<Value xsi:type="xs:string">fedorov-76-76@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">22</Value>
+		<Value xsi:type="xs:string">163-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5433100</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">163</Value>
+		<Value xsi:type="xs:string">Сахаватов Салават Нажмутдинович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">82 10</Value>
+		<Value xsi:type="xs:string">860189</Value>
+		<Value xsi:type="xs:dateTime">2010-06-29T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделением УФМС России по Республике Дагестан в Буйнакском районе</Value>
+		<Value xsi:type="xs:string">Республика Дагестан, г. Буйнакск, ул. Аликълыча, д.4,</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр. Маршала Казакова, д. 84, корп.1, кв.329</Value>
+		<Value xsi:type="xs:string">+7 (928) 547-43-43</Value>
+		<Value xsi:type="xs:string">sahavatovsalavat1983@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">23</Value>
+		<Value xsi:type="xs:string">164-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-08T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8963150</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">164</Value>
+		<Value xsi:type="xs:string">Линник Егор Викторович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 17</Value>
+		<Value xsi:type="xs:string">732978</Value>
+		<Value xsi:type="xs:dateTime">2017-03-24T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №41 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, р-н Красносельский, пр-кт Кузнецова, дом 17, кв.121</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр-кт Кузнецова, дом 17, кв.121</Value>
+		<Value xsi:type="xs:string">+7 (952) 287-60-55</Value>
+		<Value xsi:type="xs:string">nw-line@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">24</Value>
+		<Value xsi:type="xs:string">200-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-15T00:00:00</Value>
+		<Value xsi:type="xs:decimal">10762000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">200</Value>
+		<Value xsi:type="xs:string">Голосов Николай Юрьевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 11</Value>
+		<Value xsi:type="xs:string">383567</Value>
+		<Value xsi:type="xs:dateTime">2012-01-23T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №42 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Витебский, дом 99, корп. 2, лит. А, кв. 311</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Витебский, дом 99, корп. 2,лит. А, кв. 311</Value>
+		<Value xsi:type="xs:string">+7 (965) 554-44-55</Value>
+		<Value xsi:type="xs:string">golosov_nikolay@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">25</Value>
+		<Value xsi:type="xs:string">248-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2020-10-23T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7080000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">248</Value>
+		<Value xsi:type="xs:string">Пирогов Дмитрий Юрьевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 19</Value>
+		<Value xsi:type="xs:string">468095</Value>
+		<Value xsi:type="xs:dateTime">2019-12-12T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г.Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург,ул. Тамбасова, д.36, к.1, кв.223.</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург,ул. Тамбасова, д.36, к.1, кв.223.</Value>
+		<Value xsi:type="xs:string">+7 (964) 330-33-43</Value>
+		<Value xsi:type="xs:string">pirogov@bk.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">26</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5841700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">259</Value>
+		<Value xsi:type="xs:string">Тарашкевичус Каролина Анджеевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4015</Value>
+		<Value xsi:type="xs:string">394952</Value>
+		<Value xsi:type="xs:dateTime">2015-11-02T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №42 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не г.Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор.Санкт-Петербург, ул.Маршала Захарова, дом № 19, корпус 1, кв.138</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, ул.Маршала Захарова, дом № 19, корпус 1, кв.138</Value>
+		<Value xsi:type="xs:string">+7 (905) 286-43-09</Value>
+		<Value xsi:type="xs:string">Tarashkevichk@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">27</Value>
+		<Value xsi:type="xs:string">263-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-23T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8757000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">263</Value>
+		<Value xsi:type="xs:string">Ткачев Кирилл Викторович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">2017-11-09T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №41 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">Нижегородская обл.Э, гор. Нижний Новгород, Автозаводский р-н, пер. Рулевой, дом 11,
+			кв.8.
+		</Value>
+		<Value xsi:type="xs:string">СПб, Ленинский пр., дом 67, корп.2, кв.110.</Value>
+		<Value xsi:type="xs:string">+7 (965) 037-43-26</Value>
+		<Value xsi:type="xs:string">kirjan2007@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">28</Value>
+		<Value xsi:type="xs:string">266-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-24T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6071000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">266</Value>
+		<Value xsi:type="xs:string">Щеголев Павел Николаевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 08</Value>
+		<Value xsi:type="xs:string">605796</Value>
+		<Value xsi:type="xs:dateTime">2008-12-05T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №36 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Новаторов бул., дом № 55, кв.70</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Новаторов бул., дом № 55, кв.70</Value>
+		<Value xsi:type="xs:string">+7 (951) 654-02-54</Value>
+		<Value xsi:type="xs:string">Pavel Schegolev &lt;schegolevp@gmail.com&gt;</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">29</Value>
+		<Value xsi:type="xs:string">269-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-24T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5835000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">269</Value>
+		<Value xsi:type="xs:string">Юрин Василий Владимирович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 07</Value>
+		<Value xsi:type="xs:string">224439</Value>
+		<Value xsi:type="xs:dateTime">2007-05-03T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 29 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр-кт Большой пр. В.О., д.102</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр-кт Большой пр. В.О., д.102</Value>
+		<Value xsi:type="xs:string">+7 (911) 912-74-12</Value>
+		<Value xsi:type="xs:string">cl188@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">30</Value>
+		<Value xsi:type="xs:string">271-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-05T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6070740</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">271</Value>
+		<Value xsi:type="xs:string">Семенова Марина Игоревна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">18 09</Value>
+		<Value xsi:type="xs:string">305952</Value>
+		<Value xsi:type="xs:dateTime">2009-06-16T00:00:00</Value>
+		<Value xsi:type="xs:string">ОУФМС России по Волгоградской области в Тракторозаводском районе гор. Волгограда
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр-кт Ленинский, д.72, корп.3, лит. А, кв.105</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр-кт Ленинский, д.72, корп.3, лит. А, кв.105</Value>
+		<Value xsi:type="xs:string">+7 (921) 790-64-04</Value>
+		<Value xsi:type="xs:string">semenovamarina89@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">31</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8757000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">278</Value>
+		<Value xsi:type="xs:string">Афанасьев Константин Александрович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4017</Value>
+		<Value xsi:type="xs:string">757954</Value>
+		<Value xsi:type="xs:dateTime">2017-04-03T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №39 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр-кт Народного Ополчения, дом 221, кв. 41</Value>
+		<Value xsi:type="xs:string">198334, гор. Санкт-Петербург, пр-кт Народного Ополчения, дом 221, кв. 41</Value>
+		<Value xsi:type="xs:string">+7 (911) 927-33-51</Value>
+		<Value xsi:type="xs:string">nevapost@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">32</Value>
+		<Value xsi:type="xs:string">279-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-24T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5835000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">279</Value>
+		<Value xsi:type="xs:string">Афанасьева Марина Леонидовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 11</Value>
+		<Value xsi:type="xs:string">460021</Value>
+		<Value xsi:type="xs:dateTime">2012-02-08T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №39 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Красносельский р-н, Петергофское шоссе, дом 84, корп.8,
+			кв.87.
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Красносельский р-н, Петергофское шоссе, дом 84, корп.8,
+			кв.87.
+		</Value>
+		<Value xsi:type="xs:string">+7 (911) 223-47-50</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">33</Value>
+		<Value xsi:type="xs:string">284-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-18T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5841482</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">284</Value>
+		<Value xsi:type="xs:string">Надрошин Валентин Евгеньевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">89 15</Value>
+		<Value xsi:type="xs:string">378752</Value>
+		<Value xsi:type="xs:dateTime">2015-08-07T00:00:00</Value>
+		<Value xsi:type="xs:string">Одел УФМС России по Республике Мордовия в г. Краснослободск</Value>
+		<Value xsi:type="xs:string">Сахалинская область, Южно-Курильский р-н, пос. Лагунное</Value>
+		<Value xsi:type="xs:string">Сахалинская область, Южно-Курильский р-н, пос. Лагунное</Value>
+		<Value xsi:type="xs:string">+7 (920) 034-41-93</Value>
+		<Value xsi:type="xs:string">vnadroshin@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">34</Value>
+		<Value xsi:type="xs:string">291-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-05T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5951623</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">291</Value>
+		<Value xsi:type="xs:string">Голосов Александр Вениаминович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">46 15</Value>
+		<Value xsi:type="xs:string">862989</Value>
+		<Value xsi:type="xs:dateTime">2015-06-02T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №4 ОУФМС России по Московской обл. по городскому округу Балашиха</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Доблести, дом № 14, корпус 2, кв.7</Value>
+		<Value xsi:type="xs:string">198332, гор. Санкт-Петербург, ул. Доблести, дом № 14, корпус 2, кв.7</Value>
+		<Value xsi:type="xs:string">+7 (911) 738-70-15</Value>
+		<Value xsi:type="xs:string">alexandrgolosov2010@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">35</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4640000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">300</Value>
+		<Value xsi:type="xs:string">Черданцев Григорий Анатольевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 13</Value>
+		<Value xsi:type="xs:string">951743</Value>
+		<Value xsi:type="xs:dateTime">2014-06-04T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №49 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Московском р-не
+			г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Московский р-н, пр-кт Космонавтов, дом 61, корп.2, кв.58.
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Московский р-н, пр-кт Космонавтов, дом 61, корп.2, кв.58.
+		</Value>
+		<Value xsi:type="xs:string">+7 (931) 954-25-37</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">36</Value>
+		<Value xsi:type="xs:string">304-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5952000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">304</Value>
+		<Value xsi:type="xs:string">Максимова Ольга Николаевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">7416</Value>
+		<Value xsi:type="xs:string">923419</Value>
+		<Value xsi:type="xs:dateTime">2016-07-29T00:00:00</Value>
+		<Value xsi:type="xs:string">отделом УФМС России по Ямало-Ненецкому автономному округу в городе Надым</Value>
+		<Value xsi:type="xs:string">Ямало-Ненецкий АО, гор. Надым, ул. Кедровая, дом 8, кв. 203</Value>
+		<Value xsi:type="xs:string">629736, Ямало-Ненецкий АО, гор. Надым, ул. Кедровая, дом 8, кв. 203</Value>
+		<Value xsi:type="xs:string">+7 (919) 556-99-69</Value>
+		<Value xsi:type="xs:string">moneka38@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">37</Value>
+		<Value xsi:type="xs:string">310-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-15T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4165850</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">310</Value>
+		<Value xsi:type="xs:string">Кивва Иван Владимирович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">07 05</Value>
+		<Value xsi:type="xs:string">634476</Value>
+		<Value xsi:type="xs:dateTime">2006-02-04T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделение милиции пос. Солнечнодольск Изобильненского района Ставропольского края
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Новоколомяжский пр., д.4, корп.1, кв.127</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Новоколомяжский пр., д.4, корп.1, кв.127</Value>
+		<Value xsi:type="xs:string">+7 (981) 703-08-88</Value>
+		<Value xsi:type="xs:string">ivanko_228@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">38</Value>
+		<Value xsi:type="xs:string">315-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">3861833</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">315</Value>
+		<Value xsi:type="xs:string">Петров Герман Вадимович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 10</Value>
+		<Value xsi:type="xs:string">056673</Value>
+		<Value xsi:type="xs:dateTime">2010-09-14T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №42 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-петербург, ул. Рихарда Зорге, дом 12, кв. 51</Value>
+		<Value xsi:type="xs:string">198328, гор. Санкт-петербург, ул. Рихарда Зорге, дом 12, кв. 51</Value>
+		<Value xsi:type="xs:string">+7 (921) 944-09-55</Value>
+		<Value xsi:type="xs:string">germanp@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">39</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5167000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">345</Value>
+		<Value xsi:type="xs:string">Середа Елена Владимировна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4014</Value>
+		<Value xsi:type="xs:string">032142</Value>
+		<Value xsi:type="xs:dateTime">2014-05-19T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №62 межрайоннного отдела №2 УФМС России по Санкт-Петербургу и Ленинградской обл.
+			(Обслуживает Петродворцовый р-н г. Санкт-Петербурга и Ломоносовский р-н Ленинградской обл.)
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, гор. Петергоф, дор. Бобыльская, д.57, кв. 11</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">+7 (911) 954-19-59</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">40</Value>
+		<Value xsi:type="xs:string">353-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-17T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4706700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">353</Value>
+		<Value xsi:type="xs:string">Письменский Александр Васильевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">60 05</Value>
+		<Value xsi:type="xs:string">186698</Value>
+		<Value xsi:type="xs:dateTime">2004-09-10T00:00:00</Value>
+		<Value xsi:type="xs:string">ОВД Октябрьского района гор. Ростова-на -Дону</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Красносельский р-н, пр. Кузнецова, дом № 25, корпус 1, кв.35
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр. Кузнецова, дом № 25, корпус 1, кв.35</Value>
+		<Value xsi:type="xs:string">+7 (921) 432-57-24</Value>
+		<Value xsi:type="xs:string">aleksand1984@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">41</Value>
+		<Value xsi:type="xs:string">357-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-15T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4646070</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">357</Value>
+		<Value xsi:type="xs:string">Горбач Игорь Юрьевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4008</Value>
+		<Value xsi:type="xs:string">672485</Value>
+		<Value xsi:type="xs:dateTime">2008-12-17T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №18 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Калининском
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Черкасова, дом 17, кв. 108</Value>
+		<Value xsi:type="xs:string">195299, гор. Санкт-Петербург, ул. Черкасова, дом 17, кв. 108</Value>
+		<Value xsi:type="xs:string">+7 (905) 223-12-38</Value>
+		<Value xsi:type="xs:string">Otchetacer@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">42</Value>
+		<Value xsi:type="xs:string">361-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4647500</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">361</Value>
+		<Value xsi:type="xs:string">Казанцева Лидия Михайловна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">73 09</Value>
+		<Value xsi:type="xs:string">744354</Value>
+		<Value xsi:type="xs:dateTime">2010-03-17T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделом УФМС России по Ульяновской области в Ленинском районе города Ульяновска
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, ул. Адмирала Трибуца, д.10, лит.А, кв.446.
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, ул. Адмирала Трибуца, д.10, лит.А, кв.446.
+		</Value>
+		<Value xsi:type="xs:string">+7 (911) 017-22-56</Value>
+		<Value xsi:type="xs:string">vip.katrinstar@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">43</Value>
+		<Value xsi:type="xs:string">363-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-05T00:00:00</Value>
+		<Value xsi:type="xs:decimal">9985900</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">363</Value>
+		<Value xsi:type="xs:string">Шахов Валерий Сергеевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">08 12</Value>
+		<Value xsi:type="xs:string">133027</Value>
+		<Value xsi:type="xs:dateTime">2013-07-15T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделением УФМС России по Хабаровскому краю в Амурском районе</Value>
+		<Value xsi:type="xs:string">Хабаровский край, г. Амурск, ул. Амурская, дом №2, кв.117</Value>
+		<Value xsi:type="xs:string">Хабаровский край, г. Амурск, ул. Амурская, дом №2, кв.117</Value>
+		<Value xsi:type="xs:string">+7 (914) 172-73-69</Value>
+		<Value xsi:type="xs:string">ShahovVS@bk.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">44</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5299700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">365</Value>
+		<Value xsi:type="xs:string">Волохова Наталья Борисовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">6009</Value>
+		<Value xsi:type="xs:string">569158</Value>
+		<Value xsi:type="xs:dateTime">2009-10-01T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделом УФМС России по Ростовской обл.в Ворошиловском р-не города Ростова-на-Дону
+		</Value>
+		<Value xsi:type="xs:string">Ростовская обл., г.Ростов-на-Дону, пр.Космонавтов, дом № 41, корпус Б, кв.25</Value>
+		<Value xsi:type="xs:string">Ростовская обл., г.Ростов-на-Дону, пр.Космонавтов, дом № 41, корпус Б, кв.25</Value>
+		<Value xsi:type="xs:string">+7 (918) 857-61-05</Value>
+		<Value xsi:type="xs:string">voloxova.n@bk.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">45</Value>
+		<Value xsi:type="xs:string">370-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7415450</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">370</Value>
+		<Value xsi:type="xs:string">Зозуля Ольга Валерьевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">5703</Value>
+		<Value xsi:type="xs:string">496956</Value>
+		<Value xsi:type="xs:dateTime">2003-01-03T00:00:00</Value>
+		<Value xsi:type="xs:string">Гремячинским отделом Внутренних дел Пермской области</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Ленинский пр., дом 78, корп. 1, кв. 572</Value>
+		<Value xsi:type="xs:string">198332, гор. Санкт-Петербург, Ленинский пр., дом 78, корп. 1, кв. 572</Value>
+		<Value xsi:type="xs:string">+7 (921) 364-23-33</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">46</Value>
+		<Value xsi:type="xs:string">373-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-04T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4647500</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">373</Value>
+		<Value xsi:type="xs:string">Бибичина Татьяна Владимировна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 05</Value>
+		<Value xsi:type="xs:string">217491</Value>
+		<Value xsi:type="xs:dateTime">2004-08-05T00:00:00</Value>
+		<Value xsi:type="xs:string">43 отделом милиции Петроградского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Куйбышева, д.30, кв. 2</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Ленинский пр., дом 81, корп. 1, кв. 327</Value>
+		<Value xsi:type="xs:string">+7 (931) 303-75-69</Value>
+		<Value xsi:type="xs:string">tatianabibichinayandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">47</Value>
+		<Value xsi:type="xs:string">374-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-22T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8055566</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">374</Value>
+		<Value xsi:type="xs:string">Мирчук Наталья Владимировна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 05</Value>
+		<Value xsi:type="xs:string">394878</Value>
+		<Value xsi:type="xs:dateTime">2004-12-02T00:00:00</Value>
+		<Value xsi:type="xs:string">84 отделом милиции Красносельского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Героев, дом 25, корп. 1, кв. 19</Value>
+		<Value xsi:type="xs:string">198328, г. Санкт-Петербург, пр-кт Героев, дом 25, корп. 1, кв. 19</Value>
+		<Value xsi:type="xs:string">+7 (921) 325-50-65</Value>
+		<Value xsi:type="xs:string">mirchuknv@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">48</Value>
+		<Value xsi:type="xs:string">377-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-29T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4930400</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">377</Value>
+		<Value xsi:type="xs:string">Журавлев Андрей Борисович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 17</Value>
+		<Value xsi:type="xs:string">916573</Value>
+		<Value xsi:type="xs:dateTime">2017-11-14T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 2 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Адмиралтейском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр. Героев, д.27, корп.1, кв.232</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр. Героев, д.27, корп.1, кв.232</Value>
+		<Value xsi:type="xs:string">+7 (981) 841-20-51</Value>
+		<Value xsi:type="xs:string">ajuravlev09@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">49</Value>
+		<Value xsi:type="xs:string">378-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-25T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8209843</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">378</Value>
+		<Value xsi:type="xs:string">Куликов Сергей Владимирович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">8106</Value>
+		<Value xsi:type="xs:string">075789</Value>
+		<Value xsi:type="xs:dateTime">2006-12-30T00:00:00</Value>
+		<Value xsi:type="xs:string">Загорским отделением милиции ОВД Железнодорожного района г.Улан-Удэ Республики
+			Бурятия
+		</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., Ломоносовский р-н, п. Новогорелово, б-р Десантника В.Чугунова,
+			дом № 1, корпус 3, кв.79
+		</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., Ломоносовский р-н, п. Новогорелово, б-р Десантника В.Чугунова,
+			дом № 1, корпус 3, кв.79
+		</Value>
+		<Value xsi:type="xs:string">+7 (962) 693-78-57</Value>
+		<Value xsi:type="xs:string">SergejKV@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">50</Value>
+		<Value xsi:type="xs:string">381-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-16T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4919791</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">381</Value>
+		<Value xsi:type="xs:string">Тимофеева Любовь Валерьевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 19</Value>
+		<Value xsi:type="xs:string">463971</Value>
+		<Value xsi:type="xs:dateTime">2019-10-28T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Ленинский пр.,д.78, к.1, кв.51</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Ленинский пр.,д.78, к.1, кв.51</Value>
+		<Value xsi:type="xs:string">+7 (921) 385-29-55</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">51</Value>
+		<Value xsi:type="xs:string">382-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-20T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7408750</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">382</Value>
+		<Value xsi:type="xs:string">Малышев Иван Иванович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 18</Value>
+		<Value xsi:type="xs:string">058264</Value>
+		<Value xsi:type="xs:dateTime">2018-05-10T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр. Героев, д.25, корп.1, кв.524</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр. Героев, д.25, корп.1, кв.524</Value>
+		<Value xsi:type="xs:string">+7 (950) 043-04-36</Value>
+		<Value xsi:type="xs:string">imanvalyshev@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">52</Value>
+		<Value xsi:type="xs:string">386-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-13T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8384997</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">386</Value>
+		<Value xsi:type="xs:string">Подлобный Олег Сергеевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4013</Value>
+		<Value xsi:type="xs:string">814889</Value>
+		<Value xsi:type="xs:dateTime">2013-09-02T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 47 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Московском
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">Тюменская область ЯНАО, Пуровский р-н, п.Пуровск, ул. Железнодорожная, дом № 7,
+			кв.18
+		</Value>
+		<Value xsi:type="xs:string">Тюменская обл., ЯНАО, Пуровский р-н, п. Пуровск, ул. Железнодорожная, д.7, кв.18
+		</Value>
+		<Value xsi:type="xs:string">+7 (999) 249-89-21</Value>
+		<Value xsi:type="xs:string">podlobnyjoleg@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">53</Value>
+		<Value xsi:type="xs:string">388-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-26T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4237000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">388</Value>
+		<Value xsi:type="xs:string">Сенаторова Анна Вениаминовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 16</Value>
+		<Value xsi:type="xs:string">684799</Value>
+		<Value xsi:type="xs:dateTime">2016-12-06T00:00:00</Value>
+		<Value xsi:type="xs:string">Миграционный пункт №9 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в
+			Выборгском р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Северный, дом № 12, корпус 1, кв.410</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр. Северный, дом № 12, корпус 1, кв.410</Value>
+		<Value xsi:type="xs:string">+7 (911) 964-88-56</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">54</Value>
+		<Value xsi:type="xs:string">390-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-10T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7408750</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">390</Value>
+		<Value xsi:type="xs:string">Ахматова Мария Александровна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">70 12</Value>
+		<Value xsi:type="xs:string">384094</Value>
+		<Value xsi:type="xs:dateTime">2012-11-30T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП УФМС России по Тульской области в Заокском районе</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, пр-кт Героев, д.27, к.1, кв.249.</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, пр-кт Героев, д.27, к.1, кв.249.</Value>
+		<Value xsi:type="xs:string">+7 (921) 864-11-09</Value>
+		<Value xsi:type="xs:string">Ahmatova.mariah@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">55</Value>
+		<Value xsi:type="xs:string">392-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-02T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4071080</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">392</Value>
+		<Value xsi:type="xs:string">Спиридонов Александр Максимович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 09</Value>
+		<Value xsi:type="xs:string">866945</Value>
+		<Value xsi:type="xs:dateTime">2009-10-07T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №40 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург,Красносельский р-н, ул. Добровольцев, дом 12, кв.87.</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург,Красносельский р-н, ул. Добровольцев, дом 12, кв.87.</Value>
+		<Value xsi:type="xs:string">+7 (911) 900-80-70</Value>
+		<Value xsi:type="xs:string">Bitesnake@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">56</Value>
+		<Value xsi:type="xs:string">393-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-22T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4742250</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">393</Value>
+		<Value xsi:type="xs:string">Мишина Татьяна Юрьевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 16</Value>
+		<Value xsi:type="xs:string">634312</Value>
+		<Value xsi:type="xs:dateTime">2016-09-22T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 25 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			г.Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, пр-кт Героев, дом 23, лит. А, кв. 629
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, пр-кт Героев, дом 23, лит. А, кв. 629
+		</Value>
+		<Value xsi:type="xs:string">+7 (931) 250-50-42</Value>
+		<Value xsi:type="xs:string">tatmn@rambler.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">57</Value>
+		<Value xsi:type="xs:string">394-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-05T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8209843</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">394</Value>
+		<Value xsi:type="xs:string">Серченя Олеся Владимировна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4020</Value>
+		<Value xsi:type="xs:string">637846</Value>
+		<Value xsi:type="xs:dateTime">2020-07-22T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Маршала Захарова, д.12, корп.1, кв.410</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Маршала Захарова, д.12, корп.1, кв.410</Value>
+		<Value xsi:type="xs:string">+7 (921) 658-24-56</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">58</Value>
+		<Value xsi:type="xs:string">397-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-23T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5025700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">397</Value>
+		<Value xsi:type="xs:string">Ващенко Виталий Валерьевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">7408</Value>
+		<Value xsi:type="xs:string">670784</Value>
+		<Value xsi:type="xs:dateTime">2008-10-25T00:00:00</Value>
+		<Value xsi:type="xs:string">отделом УФМС России по Ямало-Ненецкому А.О. в городе Ноябрьск</Value>
+		<Value xsi:type="xs:string">Ямало-Ненецкий автономный округ, г. Ноябрьск, ул. Ленина, дом 67, кв. 148</Value>
+		<Value xsi:type="xs:string">629807, Ямало-Ненецкий автономный округ, г. Ноябрьск, ул. Ленина, дом 67, кв. 148
+		</Value>
+		<Value xsi:type="xs:string">+7 (912) 426-51-11</Value>
+		<Value xsi:type="xs:string">tanushavashe@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">59</Value>
+		<Value xsi:type="xs:string">398-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-18T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7415450</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">398</Value>
+		<Value xsi:type="xs:string">Гвоздикина Виктория Константиновна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4013</Value>
+		<Value xsi:type="xs:string">836778</Value>
+		<Value xsi:type="xs:dateTime">2013-09-07T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП№38 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не г.Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, ш. Красносельское(Горелово), дом № 52, корпус 1, кв.40</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, ш.Красносельское (Горелово), дом № 52, корпус 1, кв.40</Value>
+		<Value xsi:type="xs:string">+7 (952) 387-24-36</Value>
+		<Value xsi:type="xs:string">vikystik@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">60</Value>
+		<Value xsi:type="xs:string">401-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-22T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5018187</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">401</Value>
+		<Value xsi:type="xs:string">Саланова Елена Николаевна.</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4017</Value>
+		<Value xsi:type="xs:string">937102</Value>
+		<Value xsi:type="xs:dateTime">2017-12-14T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 62 межрайонного отдела №2 УФМС России по Санкт-Петербургу и Ленинградской обл.
+			(обслуживает Петродворцовый р-н г. Санкт-Петербурга и Ломоносовский р-н Ленинградской обл.)
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Летчика Лихолетова, д.14, к.3, стр.1, кв.150</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Летчика Лихолетова, д.14, к.3, стр.1, кв.150</Value>
+		<Value xsi:type="xs:string">+7 (921) 550-97-51</Value>
+		<Value xsi:type="xs:string">vartel@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">61</Value>
+		<Value xsi:type="xs:string">415-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-04T00:00:00</Value>
+		<Value xsi:type="xs:decimal">10186708</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">415</Value>
+		<Value xsi:type="xs:string">Елсуков Дмитрий Владимирович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 01</Value>
+		<Value xsi:type="xs:string">918624</Value>
+		<Value xsi:type="xs:dateTime">2001-12-28T00:00:00</Value>
+		<Value xsi:type="xs:string">7 отделом милиции Кировского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, ул. Маршала Казакова, д. 70, к. 1, стр. 1,
+			кв. 109
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, ул. Маршала Казакова, д. 70, к. 1, стр. 1,
+			кв. 109
+		</Value>
+		<Value xsi:type="xs:string">+7 (911) 094-27-39</Value>
+		<Value xsi:type="xs:string">dimae77sm@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">62</Value>
+		<Value xsi:type="xs:string">425-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-05T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4823325</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">425</Value>
+		<Value xsi:type="xs:string">Хабаров Станислав Игоревич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4005</Value>
+		<Value xsi:type="xs:string">095068</Value>
+		<Value xsi:type="xs:dateTime">2004-02-11T00:00:00</Value>
+		<Value xsi:type="xs:string">68 отделом милиции Московского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Ленинский пр., дом 147, кв. 34</Value>
+		<Value xsi:type="xs:string">196247, г. Санкт-Петербург, Ленинский пр., дом 147, кв. 34</Value>
+		<Value xsi:type="xs:string">+7 (904) 636-61-02</Value>
+		<Value xsi:type="xs:string">habarov_s@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">63</Value>
+		<Value xsi:type="xs:string">426-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">3804800</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">426</Value>
+		<Value xsi:type="xs:string">Рудинская Татьяна Владимировна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 03</Value>
+		<Value xsi:type="xs:string">604404</Value>
+		<Value xsi:type="xs:dateTime">2003-02-27T00:00:00</Value>
+		<Value xsi:type="xs:string">1 отделом милиции Адмиралтейского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Ленинский пр., д.55, корп.1, лит. А., кв.276</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Ленинский пр., д.55, корп.1, лит. А., кв.276</Value>
+		<Value xsi:type="xs:string">+7 (921) 649-81-57</Value>
+		<Value xsi:type="xs:string">rudinskaja2012@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">64</Value>
+		<Value xsi:type="xs:string">430-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-08T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4647500</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">430</Value>
+		<Value xsi:type="xs:string">Бунтова Наталья Николаевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4003</Value>
+		<Value xsi:type="xs:string">301513</Value>
+		<Value xsi:type="xs:dateTime">2002-11-28T00:00:00</Value>
+		<Value xsi:type="xs:string">82 отделом милиции Красносельского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, Ленинский пр., дом № 93, корпус 2, кв.167</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, Ленинский пр., дом № 93, корпус 2, кв.167</Value>
+		<Value xsi:type="xs:string">+7 (911) 276-10-97</Value>
+		<Value xsi:type="xs:string">natalina80spb@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">65</Value>
+		<Value xsi:type="xs:string">432-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-05T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5768221</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">432</Value>
+		<Value xsi:type="xs:string">Коростелева Маргарита Андреевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 16</Value>
+		<Value xsi:type="xs:string">567607</Value>
+		<Value xsi:type="xs:dateTime">2016-07-26T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №75 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. во Фрунзенском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, р-н Фрунзенский, пр-кт Славы, дом 52, корп. 1, кв.756</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, р-н Фрунзенский, пр-кт Славы, дом 52, корп.1, кв.756</Value>
+		<Value xsi:type="xs:string">+7 (921) 648-19-19</Value>
+		<Value xsi:type="xs:string">margarita.korosteleva@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">66</Value>
+		<Value xsi:type="xs:string">433-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-17T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5670700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">433</Value>
+		<Value xsi:type="xs:string">Горбачева Анна Дмитриевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">3314</Value>
+		<Value xsi:type="xs:string">296308</Value>
+		<Value xsi:type="xs:dateTime">2014-07-03T00:00:00</Value>
+		<Value xsi:type="xs:string">отделом УФМС России по Кировской области в Ленинском районе города Кирова</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., Всеволожский р-н, п. Мурино, б-р Менделеева, дом 4, кв. 457
+		</Value>
+		<Value xsi:type="xs:string">188678, Ленинградская обл., Всеволожский р-н, п. Мурино, б-р Менделеева, дом 4, кв.
+			457
+		</Value>
+		<Value xsi:type="xs:string">+7 (905) 870-53-69</Value>
+		<Value xsi:type="xs:string">an.gorba4eva94@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">67</Value>
+		<Value xsi:type="xs:string">435-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-25T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4823325</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">435</Value>
+		<Value xsi:type="xs:string">Дудкина Ольга Валентиновна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">47 09</Value>
+		<Value xsi:type="xs:string">270566</Value>
+		<Value xsi:type="xs:dateTime">2010-07-03T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП в гор. Кировске Межрайонного отдела УФМС России по Мурманской обл. в гор.
+			Апатиты
+		</Value>
+		<Value xsi:type="xs:string">г. Москва, Пр-д Дежнева, д.22, корп.4, кв.28</Value>
+		<Value xsi:type="xs:string">г. Москва, Пр-д Дежнева, д.22, корп.4, кв.28</Value>
+		<Value xsi:type="xs:string">+7 (926) 926-75-84</Value>
+		<Value xsi:type="xs:string">sanvd@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">68</Value>
+		<Value xsi:type="xs:string">437-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-03T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6056628</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">437</Value>
+		<Value xsi:type="xs:string">Лазарева Елена Геннадьевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">5610</Value>
+		<Value xsi:type="xs:string">950578</Value>
+		<Value xsi:type="xs:dateTime">2010-08-07T00:00:00</Value>
+		<Value xsi:type="xs:string">ОУФМС России по Пензенской области в Первомайском районе гор. Пензы</Value>
+		<Value xsi:type="xs:string">г.Москва, ул. Рождественская, дом № 32, кв.147</Value>
+		<Value xsi:type="xs:string">г. Москва, ул. Рождественская, дом № 32, кв.147</Value>
+		<Value xsi:type="xs:string">+7 (926) 374-78-74</Value>
+		<Value xsi:type="xs:string">economist-accountant@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">69</Value>
+		<Value xsi:type="xs:string">439-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-03T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7415450</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">439</Value>
+		<Value xsi:type="xs:string">Кучумова Елена Викторовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 17</Value>
+		<Value xsi:type="xs:string">732665</Value>
+		<Value xsi:type="xs:dateTime">2017-03-09T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 41 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр-кт Ленинский, д.74, корп.1, кв.515</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр-кт Ленинский, д.74, корп.1, кв.515</Value>
+		<Value xsi:type="xs:string">+7 (921) 399-92-30</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">70</Value>
+		<Value xsi:type="xs:string">440-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-04T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4654200</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">440</Value>
+		<Value xsi:type="xs:string">Березкина Юлия Борисовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4015</Value>
+		<Value xsi:type="xs:string">376691</Value>
+		<Value xsi:type="xs:dateTime">2015-09-29T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 142 межрайонного отдела №1 УФМС России по СПБ и ЛО( обслуживает Курортный и
+			Кронштадтский р-на СПБ)
+		</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, гор.Кронштадт, ул. Юрия Инге, дом № 11, кв.15</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург</Value>
+		<Value xsi:type="xs:string">+7 (911) 260-38-97</Value>
+		<Value xsi:type="xs:string">dashunia19952008@rambler.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">71</Value>
+		<Value xsi:type="xs:string">443-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-05T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8055566</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">443</Value>
+		<Value xsi:type="xs:string">Смоленкова Анна Анатольевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 08</Value>
+		<Value xsi:type="xs:string">523630</Value>
+		<Value xsi:type="xs:dateTime">2008-07-11T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №42 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, р-н Красносельский, Ленинский пр., дом 87, корп. 1, кв. 292
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Ленинский пр., дом 87, корп. 1, кв. 292</Value>
+		<Value xsi:type="xs:string">+7 (911) 112-81-27</Value>
+		<Value xsi:type="xs:string">anna_smolenkova80@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">72</Value>
+		<Value xsi:type="xs:string">444-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-03T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4654200</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">444</Value>
+		<Value xsi:type="xs:string">Безбабный Александр Владимирович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">7508</Value>
+		<Value xsi:type="xs:string">437878</Value>
+		<Value xsi:type="xs:dateTime">2008-12-25T00:00:00</Value>
+		<Value xsi:type="xs:string">отделом УФМС России по Челябинской области в гор. Миассе</Value>
+		<Value xsi:type="xs:string">Респ. КОМИ, г. Воркута, ул. Пирогова, дом № 8Г</Value>
+		<Value xsi:type="xs:string">Респ. КОМИ, г. Воркута, ул. Пирогова, дом № 8Г</Value>
+		<Value xsi:type="xs:string">+7 (911) 210-33-71</Value>
+		<Value xsi:type="xs:string">ezb2007@rambler.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">73</Value>
+		<Value xsi:type="xs:string">453-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-15T00:00:00</Value>
+		<Value xsi:type="xs:decimal">3804800</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">453</Value>
+		<Value xsi:type="xs:string">Рыбалка Анджела Васильевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 16</Value>
+		<Value xsi:type="xs:string">633741</Value>
+		<Value xsi:type="xs:dateTime">2016-10-01T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №29 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Кировский р-н, ул. Стойкости, дом 18, корп. 3, кв.59.</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Кировский р-н, ул. Стойкости, дом 18, корп. 3, кв.59.</Value>
+		<Value xsi:type="xs:string">+7 (911) 293-91-63</Value>
+		<Value xsi:type="xs:string">angi_rybalka@rambler.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">74</Value>
+		<Value xsi:type="xs:string">457-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-26T00:00:00</Value>
+		<Value xsi:type="xs:decimal">3811500</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">457</Value>
+		<Value xsi:type="xs:string">Зубкова Виктория Владимировна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 18</Value>
+		<Value xsi:type="xs:string">287688</Value>
+		<Value xsi:type="xs:dateTime">2019-03-26T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">Челябинская обл., г. Южноуральск, ул. красногвардейская, д.81</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., Всеволожский р-н, дер. Кудрово, Европейский пр., д.14, корп.1,
+			кв.211
+		</Value>
+		<Value xsi:type="xs:string">+7 (900) 646-78-50</Value>
+		<Value xsi:type="xs:string">delfinea88@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">75</Value>
+		<Value xsi:type="xs:string">460-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4182750</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">460</Value>
+		<Value xsi:type="xs:string">Галицына Оксана Валерьевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 07</Value>
+		<Value xsi:type="xs:string">140394</Value>
+		<Value xsi:type="xs:dateTime">2007-02-01T00:00:00</Value>
+		<Value xsi:type="xs:string">53 отделом милиции Приморского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Бутлерова, д. 9, корп. 3, кв. 139
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Верности, д. 17, кв. 370</Value>
+		<Value xsi:type="xs:string">+7 (921) 759-10-08</Value>
+		<Value xsi:type="xs:string">oksanagal@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">76</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5450000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">476</Value>
+		<Value xsi:type="xs:string">Родичев Михаил Александрович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 12</Value>
+		<Value xsi:type="xs:string">710773</Value>
+		<Value xsi:type="xs:dateTime">2013-06-25T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №25 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Кировский р-н, ул. Лени Голикова дом 27, корп. 2, кв. 61
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Кировский р-н, ул. Лени Голикова дом 27, корп. 2, кв. 61
+		</Value>
+		<Value xsi:type="xs:string">+7 (921) 986-07-69</Value>
+		<Value xsi:type="xs:string">mikh.rodicheff2013@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">77</Value>
+		<Value xsi:type="xs:string">480-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-23T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5018187</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">480</Value>
+		<Value xsi:type="xs:string">Наумов Леонид Константинович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 07</Value>
+		<Value xsi:type="xs:string">438475</Value>
+		<Value xsi:type="xs:dateTime">2008-03-17T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №62 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Петродворцовом
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, г. Петродворец, ул. Бобыльская дорога, дом № 61, кв.158</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">+7 (905) 218-60-09</Value>
+		<Value xsi:type="xs:string">2186009@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">78</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4322000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">481</Value>
+		<Value xsi:type="xs:string">Мартынова Дарья Александровна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4016</Value>
+		<Value xsi:type="xs:string">640078</Value>
+		<Value xsi:type="xs:dateTime">2016-10-04T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №74 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. во Фрунзенском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, пр-кт Героев, дом 23, лит.А, кв. 214</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, пр-кт Героев, дом 23, лит.А, кв. 214</Value>
+		<Value xsi:type="xs:string">+7(981)981-36-47</Value>
+		<Value xsi:type="xs:string">dmaleva@bk.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">79</Value>
+		<Value xsi:type="xs:string">492-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2020-12-29T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4222441</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">492</Value>
+		<Value xsi:type="xs:string">Ковалев Никита Игоревич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 07</Value>
+		<Value xsi:type="xs:string">209611</Value>
+		<Value xsi:type="xs:dateTime">2007-04-20T00:00:00</Value>
+		<Value xsi:type="xs:string">34 отделом милиции Приморского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, наб. Черной речки, дом № 61, кв.80</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, наб. Черной речеи, дом № 61, кв.80</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">80</Value>
+		<Value xsi:type="xs:string">495-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6459183</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">495</Value>
+		<Value xsi:type="xs:string">Гаврилов Леонид Александрович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">86 17</Value>
+		<Value xsi:type="xs:string">228942</Value>
+		<Value xsi:type="xs:dateTime">2017-04-10T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделом УФМС России по Республике Карелия в г. Петрозаводске</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., Всеволожский р-н, д.Кудрово, Европейский пр., д.18, корп.2,
+			кв.380
+		</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., Всеволожский р-н, д.Кудрово, Европейский пр., д.18, корп.2,
+			кв.380
+		</Value>
+		<Value xsi:type="xs:string">+7 (931) 351-46-99</Value>
+		<Value xsi:type="xs:string">gavrilov.leonid@inbox.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">81</Value>
+		<Value xsi:type="xs:string">519-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4758264</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">519</Value>
+		<Value xsi:type="xs:string">Щитикова Виктория Анатольевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">7505</Value>
+		<Value xsi:type="xs:string">628146</Value>
+		<Value xsi:type="xs:dateTime">2005-09-02T00:00:00</Value>
+		<Value xsi:type="xs:string">ОВД Правобережного р-на гор. Магнитогорска Челябинской обл.</Value>
+		<Value xsi:type="xs:string">Челябинская обл., город Магнитогорск, улица Каштановая, дом № 48, корпус а</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Ленинский пр. д.45, корп.1, кв. 11</Value>
+		<Value xsi:type="xs:string">+7 (912) 771-48-77</Value>
+		<Value xsi:type="xs:string">vikscha2000@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">82</Value>
+		<Value xsi:type="xs:string">530-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6004800</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">530</Value>
+		<Value xsi:type="xs:string">Агафонов Денис Юрьевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">95 01</Value>
+		<Value xsi:type="xs:string">160641</Value>
+		<Value xsi:type="xs:dateTime">2001-12-25T00:00:00</Value>
+		<Value xsi:type="xs:string">Алтайским РОВД Республики Хакасия</Value>
+		<Value xsi:type="xs:string">Красноярский край, г. Норильск, набережная Урванцева, дом № 23, кв.281</Value>
+		<Value xsi:type="xs:string">Красноярский край, гор. Норильск, набережная Урванцева, дом № 23, кв.281</Value>
+		<Value xsi:type="xs:string">+7 (913) 499-06-26</Value>
+		<Value xsi:type="xs:string">denagastar@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">83</Value>
+		<Value xsi:type="xs:string">533-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-03T00:00:00</Value>
+		<Value xsi:type="xs:decimal">12306700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">533</Value>
+		<Value xsi:type="xs:string">Сушев Дмитрий Леонидович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 02</Value>
+		<Value xsi:type="xs:string">026734</Value>
+		<Value xsi:type="xs:dateTime">2002-03-06T00:00:00</Value>
+		<Value xsi:type="xs:string">66 Отделом милиции Красногвардейского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Крюкова, д.9, кв.6</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Крюкова, д.9, кв.6</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">84</Value>
+		<Value xsi:type="xs:string">536-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-03T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8221200</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">536</Value>
+		<Value xsi:type="xs:string">Смирнов Денис Игоревич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 11</Value>
+		<Value xsi:type="xs:string">446342</Value>
+		<Value xsi:type="xs:dateTime">2012-07-06T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №29 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, р-н Кировский, ул. Стойкости, дом 26, корп.3, кв.150</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Стойкости, дом 26, корп.3, кв.150</Value>
+		<Value xsi:type="xs:string">+7 (921) 790-92-54</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">85</Value>
+		<Value xsi:type="xs:string">538-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-15T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5742090</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">538</Value>
+		<Value xsi:type="xs:string">Курочкин Вячеслав Викторович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 14</Value>
+		<Value xsi:type="xs:string">091309</Value>
+		<Value xsi:type="xs:dateTime">2014-09-08T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 62 межрайонного отдела № 2 УФМС России по Санкт-Петербургу и Ленинградской обл.
+			(обслуживает Петродворцовый р-н Санкт-Петербурга и Ломоносовский р-н Ленинградской обл.)
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, гор. Петергоф, ул. Блан-Менильская, д. 3, кв.8</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, гор. Петергоф, ул. Блан-Менильская, д. 3, кв.8</Value>
+		<Value xsi:type="xs:string">+7 (931) 300-31-28</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">86</Value>
+		<Value xsi:type="xs:string">554-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-14T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7919700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">554</Value>
+		<Value xsi:type="xs:string">Анушенко Александр Юрьевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">3200</Value>
+		<Value xsi:type="xs:string">925559</Value>
+		<Value xsi:type="xs:dateTime">2001-12-10T00:00:00</Value>
+		<Value xsi:type="xs:string">Рудничным РОВД города Кемерова</Value>
+		<Value xsi:type="xs:string">Кемеровская обл., г. Кемерово, б-р Осенний, дом 2, кв. 51</Value>
+		<Value xsi:type="xs:string">650071, Кемеровская обл., г. Кемерово, б-р Осенний, дом 2, кв. 51</Value>
+		<Value xsi:type="xs:string">+7 (903) 046-07-77</Value>
+		<Value xsi:type="xs:string">Anushenko@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">87</Value>
+		<Value xsi:type="xs:string">555-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-10T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6511089</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">555</Value>
+		<Value xsi:type="xs:string">Казарин Вячеслав Игоревич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 07</Value>
+		<Value xsi:type="xs:string">059929</Value>
+		<Value xsi:type="xs:dateTime">2006-11-30T00:00:00</Value>
+		<Value xsi:type="xs:string">Управлением Внутренних Дел Пушкинского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, г. Пушкин, ул. Красной звезды, д.19 А, кв.12</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, г. Пушкин, ул. Красной звезды, д.19 А, кв.12</Value>
+		<Value xsi:type="xs:string">+7 (911) 813-63-01</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">88</Value>
+		<Value xsi:type="xs:string">556-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7303117</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">556</Value>
+		<Value xsi:type="xs:string">Иванова Ольга Владимировна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 19</Value>
+		<Value xsi:type="xs:string">357378</Value>
+		<Value xsi:type="xs:dateTime">2019-07-02T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, пр-кт Ленинский, д. 56, стр. 1, кв. 345
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, пр-кт Ленинский, д. 56, стр. 1, кв. 345
+		</Value>
+		<Value xsi:type="xs:string">+7 (905) 215-42-00</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">89</Value>
+		<Value xsi:type="xs:string">557-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">10241757</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">557</Value>
+		<Value xsi:type="xs:string">Ольшанская Екатерина Владимировна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 99</Value>
+		<Value xsi:type="xs:string">176098</Value>
+		<Value xsi:type="xs:dateTime">1999-09-10T00:00:00</Value>
+		<Value xsi:type="xs:string">47 Отделом милиции Фрунзенского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Белградская, дом №6, корп.2, кв.237</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Ленинский, д.81, к.1, кв.67</Value>
+		<Value xsi:type="xs:string">+7 (905) 259-41-56</Value>
+		<Value xsi:type="xs:string">Evolsha@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">90</Value>
+		<Value xsi:type="xs:string">558-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5856932</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">558</Value>
+		<Value xsi:type="xs:string">Ольшанская Екатерина Владимировна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 99</Value>
+		<Value xsi:type="xs:string">176098</Value>
+		<Value xsi:type="xs:dateTime">1999-09-10T00:00:00</Value>
+		<Value xsi:type="xs:string">47 Отделом милиции Фрунзенского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Белградская, дом №6, корп.2, кв.237</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Ленинский, д.81, к.1, кв.67</Value>
+		<Value xsi:type="xs:string">+7 (905) 259-41-56</Value>
+		<Value xsi:type="xs:string">Evolsha@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">91</Value>
+		<Value xsi:type="xs:string">560-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-19T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8385624</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">560</Value>
+		<Value xsi:type="xs:string">Ахмерова Марина Алеутдиновна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">74 08</Value>
+		<Value xsi:type="xs:string">686195</Value>
+		<Value xsi:type="xs:dateTime">2009-03-20T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделом УФМС России по Ямало-Ненецкому А.О. в городе Новый Уренгой</Value>
+		<Value xsi:type="xs:string">Омская обл., г. Омск, ул. И.Мишина, дом 8, кв. 215</Value>
+		<Value xsi:type="xs:string">Омская обл., г. Омск, ул. И.Мишина, дом 8, кв. 215</Value>
+		<Value xsi:type="xs:string">+7 (951) 986-33-81</Value>
+		<Value xsi:type="xs:string">marina.axmerova.64@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">92</Value>
+		<Value xsi:type="xs:string">564-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-02T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8575840</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">564</Value>
+		<Value xsi:type="xs:string">Сайфулаев Руслан Умарович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 10</Value>
+		<Value xsi:type="xs:string">183441</Value>
+		<Value xsi:type="xs:dateTime">2010-12-06T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №41 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, ул. Котина, д.5, к.1, кв.130.</Value>
+		<Value xsi:type="xs:string">198332, Санкт-Петербург, ул. Котина, д. 5, корп. 1, кв. 130</Value>
+		<Value xsi:type="xs:string">+7 (921) 634-31-07</Value>
+		<Value xsi:type="xs:string">ruslan.sayfulaev@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">93</Value>
+		<Value xsi:type="xs:string">572-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-15T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8392324</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">572</Value>
+		<Value xsi:type="xs:string">Русаков Сергей Александрович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 03</Value>
+		<Value xsi:type="xs:string">732226</Value>
+		<Value xsi:type="xs:dateTime">2003-04-05T00:00:00</Value>
+		<Value xsi:type="xs:string">68 Отделом милиции Московского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Красносельский р-н, Ленинский пр-кт, дом 35, корп.1, кв.538.
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Красносельский р-н, Ленинский пр-кт, дом 35, корп.1, кв.538.
+		</Value>
+		<Value xsi:type="xs:string">+7 (911) 081-19-78</Value>
+		<Value xsi:type="xs:string">rusakovv79@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">94</Value>
+		<Value xsi:type="xs:string">595-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-26T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7091406</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">595</Value>
+		<Value xsi:type="xs:string">Видная Дарья Алексеевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 07</Value>
+		<Value xsi:type="xs:string">451716</Value>
+		<Value xsi:type="xs:dateTime">2008-03-11T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №68 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Приморском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, пр-кт Ленинский, дом № 57, корпус 1,
+			кв.299
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр. Ленинский, дом № 57, корпус 1, кв.299</Value>
+		<Value xsi:type="xs:string">+7 (911) 737-07-51</Value>
+		<Value xsi:type="xs:string">dariavidnaya@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">95</Value>
+		<Value xsi:type="xs:string">626-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-19T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8224400</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">626</Value>
+		<Value xsi:type="xs:string">Уткина Елена Викторовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4011</Value>
+		<Value xsi:type="xs:string">435473</Value>
+		<Value xsi:type="xs:dateTime">1966-12-14T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №84 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Центральном
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, Литейный пр., дом № 15, кв.101</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, Литейный пр., дом № 15, кв.101</Value>
+		<Value xsi:type="xs:string">+7 (921) 963-80-45</Value>
+		<Value xsi:type="xs:string">Beautybc@bk.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">96</Value>
+		<Value xsi:type="xs:string">632-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5726478</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">632</Value>
+		<Value xsi:type="xs:string">Ермолина Галина Борисовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 05</Value>
+		<Value xsi:type="xs:string">380288</Value>
+		<Value xsi:type="xs:dateTime">2004-09-28T00:00:00</Value>
+		<Value xsi:type="xs:string">18 Отделом милиции Петроградского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Каменоостровский пр., дом 64, кв.183</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Каменоостровский пр., дом 64, кв.183</Value>
+		<Value xsi:type="xs:string">+7 (950) 000-49-48</Value>
+		<Value xsi:type="xs:string">Ermolinagb@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">97</Value>
+		<Value xsi:type="xs:string">641-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2020-12-28T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6860085</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">641</Value>
+		<Value xsi:type="xs:string">Лапов Григорий Владимирович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 19</Value>
+		<Value xsi:type="xs:string">540600</Value>
+		<Value xsi:type="xs:dateTime">2020-02-12T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, пр-кт Ветеранов, д. 129, к. 2, кв. 222
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, пр-кт Ветеранов, д. 129, к. 2, кв. 222
+		</Value>
+		<Value xsi:type="xs:string">+7 (921) 935-66-88</Value>
+		<Value xsi:type="xs:string">lapov@xdesign.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">98</Value>
+		<Value xsi:type="xs:string">642-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5726478</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">642</Value>
+		<Value xsi:type="xs:string">Литвинова Светлана Владимировна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 08</Value>
+		<Value xsi:type="xs:string">553346</Value>
+		<Value xsi:type="xs:dateTime">2008-08-20T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №34 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в
+			Красногвардейском р-не гор. Санкт-Петербург
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, р-н Красногвардейский, ул. Петра Смородина, дом 14, кв.31
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Петра Смородина, дом 14, кв.31</Value>
+		<Value xsi:type="xs:string">+7 (921) 400-21-91</Value>
+		<Value xsi:type="xs:string">s.litvinova@list.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">99</Value>
+		<Value xsi:type="xs:string">646-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2020-12-25T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6860085</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">646</Value>
+		<Value xsi:type="xs:string">Трабер Надежда Викторовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4015</Value>
+		<Value xsi:type="xs:string">275008</Value>
+		<Value xsi:type="xs:dateTime">2015-05-19T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №17 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Калининском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Калининский р-н, пр-кт Тихорецкий, дом 33, корп. 1, кв. 79
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Калининский р-н, пр-кт Тихорецкий, дом 33, корп. 1, кв. 79
+		</Value>
+		<Value xsi:type="xs:string">+7 (921) 742-96-26</Value>
+		<Value xsi:type="xs:string">ntraber@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">100</Value>
+		<Value xsi:type="xs:string">647-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2020-12-25T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5726478</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">647</Value>
+		<Value xsi:type="xs:string">Трабер Надежда Викторовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4015</Value>
+		<Value xsi:type="xs:string">275008</Value>
+		<Value xsi:type="xs:dateTime">2015-05-19T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №17 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Калининском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Калининский р-н, пр-кт Тихорецкий, дом 33, корп. 1, кв. 79
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Калининский р-н, пр-кт Тихорецкий, дом 33, корп. 1, кв. 79
+		</Value>
+		<Value xsi:type="xs:string">+7 (921) 742-96-26</Value>
+		<Value xsi:type="xs:string">ntraber@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">101</Value>
+		<Value xsi:type="xs:string">674-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5636700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">674</Value>
+		<Value xsi:type="xs:string">Кривоносов Виктор Николаевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 20</Value>
+		<Value xsi:type="xs:string">792959</Value>
+		<Value xsi:type="xs:dateTime">2021-01-22T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Старо-Петергофский, д.9А, кв.35</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Старо-Петергофский, д.9А, кв.35</Value>
+		<Value xsi:type="xs:string">+7 (981) 793-35-28</Value>
+		<Value xsi:type="xs:string">victor.crivonosov@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">102</Value>
+		<Value xsi:type="xs:string">679-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-03T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5644350</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">679</Value>
+		<Value xsi:type="xs:string">Таранов Андрей Евгеньевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 18</Value>
+		<Value xsi:type="xs:string">245099</Value>
+		<Value xsi:type="xs:dateTime">2019-01-18T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Ленинский, д. 67, к. 2, кв. 12</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Ленинский, д. 67, к. 2, кв. 12</Value>
+		<Value xsi:type="xs:string">+7 (952) 206-21-51</Value>
+		<Value xsi:type="xs:string">andrei_taranov@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">103</Value>
+		<Value xsi:type="xs:string">682-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5237760</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">682</Value>
+		<Value xsi:type="xs:string">Рудикова Ирина Евгеньевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 02</Value>
+		<Value xsi:type="xs:string">598115</Value>
+		<Value xsi:type="xs:dateTime">2002-06-28T00:00:00</Value>
+		<Value xsi:type="xs:string">8 Отделом милиции Кировского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, ул. Адмирала Черокова, дом 18, корп.3,
+			лит.А, кв.131.
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, ул. Адмирала Черокова, дом 18, корп.3,
+			лит.А, кв.131.
+		</Value>
+		<Value xsi:type="xs:string">+7 (911) 990-69-73</Value>
+		<Value xsi:type="xs:string">lavandrina@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">104</Value>
+		<Value xsi:type="xs:string">684-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-26T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5644350</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">684</Value>
+		<Value xsi:type="xs:string">Софронова Светлана Сергеевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">1707</Value>
+		<Value xsi:type="xs:string">802221</Value>
+		<Value xsi:type="xs:dateTime">2007-09-27T00:00:00</Value>
+		<Value xsi:type="xs:string">МО УФМС России по Владимирской области в городе Коврове</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Ленинский, д. 56, стр. 1, кв. 698</Value>
+		<Value xsi:type="xs:string">198335, г. Санкт-Петербург, пр-кт Ленинский, д. 56, стр. 1, кв. 698</Value>
+		<Value xsi:type="xs:string">+7 (981) 718-19-02</Value>
+		<Value xsi:type="xs:string">denissofronov@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">105</Value>
+		<Value xsi:type="xs:string">687-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-23T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6082700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">687</Value>
+		<Value xsi:type="xs:string">Яковлева Алена Анатольевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">11 13</Value>
+		<Value xsi:type="xs:string">946825</Value>
+		<Value xsi:type="xs:dateTime">2013-08-14T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделением УФМС России по Архангельской области в Октябрьском окр. гор.
+			Архангельска
+		</Value>
+		<Value xsi:type="xs:string">Архангельская обл., гор. Архангельск, пр-кт Обводный канал , дом 97, кв.114.</Value>
+		<Value xsi:type="xs:string">Архангельская обл., гор. Архангельск, пр-кт Обводный канал , дом 97, кв.114.</Value>
+		<Value xsi:type="xs:string">+7 (921) 499-39-54</Value>
+		<Value xsi:type="xs:string">yakovleva-alyona@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">106</Value>
+		<Value xsi:type="xs:string">691-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-31T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8927800</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">691</Value>
+		<Value xsi:type="xs:string">Солощенко Ольга Николаевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4013</Value>
+		<Value xsi:type="xs:string">781319</Value>
+		<Value xsi:type="xs:dateTime">2013-07-17T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №22 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Калининском
+			р-не г.Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Пискаревский пр-кт, дом № 46, корпус 23, кв.40</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Пискаревский пр-кт, дом № 46, корпус 23, кв.40</Value>
+		<Value xsi:type="xs:string">+7 (950) 013-89-68</Value>
+		<Value xsi:type="xs:string">osoloshenko68@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">107</Value>
+		<Value xsi:type="xs:string">692-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-13T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5524200</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">692</Value>
+		<Value xsi:type="xs:string">Гуранова Наталья Игоревна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">45 08</Value>
+		<Value xsi:type="xs:string">707440</Value>
+		<Value xsi:type="xs:dateTime">2006-08-04T00:00:00</Value>
+		<Value xsi:type="xs:string">Паспортно-визовым отделением ОВД района Ясенево гор. Москвы</Value>
+		<Value xsi:type="xs:string">г. Москва, ул. Тарусская, дом 18, корп. 1, кв. 210</Value>
+		<Value xsi:type="xs:string">г. Москва, ул. Тарусская, дом 18, корп. 1, кв. 210</Value>
+		<Value xsi:type="xs:string">+7 (916) 549-77-25</Value>
+		<Value xsi:type="xs:string">natalia.guranova@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">108</Value>
+		<Value xsi:type="xs:string">747-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-02T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5183900</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">747</Value>
+		<Value xsi:type="xs:string">Минкина Марианна Тимофеевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">04 17</Value>
+		<Value xsi:type="xs:string">199160</Value>
+		<Value xsi:type="xs:dateTime">2018-04-24T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по Красноярскому краю</Value>
+		<Value xsi:type="xs:string">Красноярский край, гор. Минусинск, ул.Береговая, д.33.</Value>
+		<Value xsi:type="xs:string">Красноярский край, гор. Минусинск, ул.Береговая, д.33.</Value>
+		<Value xsi:type="xs:string">+7 (913) 832-04-30</Value>
+		<Value xsi:type="xs:string">Dezi-gold@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">109</Value>
+		<Value xsi:type="xs:string">752-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-15T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5132128</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">752</Value>
+		<Value xsi:type="xs:string">Манерова Наталья Кондратьевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">46 17</Value>
+		<Value xsi:type="xs:string">893033</Value>
+		<Value xsi:type="xs:dateTime">2018-02-07T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по Московской области</Value>
+		<Value xsi:type="xs:string">Московская обл., р-н Пушкинский, г. Пушкино, Проезд 3-й Некрасовский, дом № 3,
+			корпус 3, кв.130
+		</Value>
+		<Value xsi:type="xs:string">Московская обл., р-н Пушкинский, г. Пушкино, Проезд 3-й Некрасовский, дом № 3,
+			корпус 3, кв.130
+		</Value>
+		<Value xsi:type="xs:string">+7 (926) 830-67-21</Value>
+		<Value xsi:type="xs:string">natamanerova@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">110</Value>
+		<Value xsi:type="xs:string">754-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-24T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5310460</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">754</Value>
+		<Value xsi:type="xs:string">Воробьева Ольга Николаевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 18</Value>
+		<Value xsi:type="xs:string">170193</Value>
+		<Value xsi:type="xs:dateTime">2018-10-19T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Ленинский пр., д.75, корп.1, кв.207</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Ленинский пр., д.75, корп.1, кв.207</Value>
+		<Value xsi:type="xs:string">+7 (952) 666-30-25</Value>
+		<Value xsi:type="xs:string">olga-school@inbox.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">111</Value>
+		<Value xsi:type="xs:string">757-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5177200</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">757</Value>
+		<Value xsi:type="xs:string">Тесленко Александр Сергеевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 04</Value>
+		<Value xsi:type="xs:string">783862</Value>
+		<Value xsi:type="xs:dateTime">2003-11-06T00:00:00</Value>
+		<Value xsi:type="xs:string">23 отделом милиции Невского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Маршала Захарова, дом № 14, корпус 2, кв.255</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Маршала Захарова, дом № 14, корпус 2, кв.255</Value>
+		<Value xsi:type="xs:string">+7 (952) 214-90-03</Value>
+		<Value xsi:type="xs:string">mank83@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">112</Value>
+		<Value xsi:type="xs:string">759-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-18T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5310460</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">759</Value>
+		<Value xsi:type="xs:string">Смакаева Светлана Харисовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">2208</Value>
+		<Value xsi:type="xs:string">148504</Value>
+		<Value xsi:type="xs:dateTime">2008-04-15T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделом УФМС России по Нижегородской обл. в Павловском р-не</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул.Адмирала Черокова, дом № 18, корпус 2, кв.2</Value>
+		<Value xsi:type="xs:string">Самарская обл., г.Тольятти, Московский пр., дом № 23, кв.190</Value>
+		<Value xsi:type="xs:string">+7 (987) 453-70-65</Value>
+		<Value xsi:type="xs:string">'Svetlana.280980@yandex.ru'</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">113</Value>
+		<Value xsi:type="xs:string">762-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-05T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5177200</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">762</Value>
+		<Value xsi:type="xs:string">Галинская Ольга Александровна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">75 19</Value>
+		<Value xsi:type="xs:string">431515</Value>
+		<Value xsi:type="xs:dateTime">2020-01-16T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУД России по Челябинской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Балтийский б-р, д,4, стр.1, кв.1005</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Балтийский б-р, д,4, стр.1, кв.1005</Value>
+		<Value xsi:type="xs:string">+7 (918) 264-12-38</Value>
+		<Value xsi:type="xs:string">olenka_@inbox.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">114</Value>
+		<Value xsi:type="xs:string">764-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-25T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5318700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">764</Value>
+		<Value xsi:type="xs:string">Черняковский Авенир Евгеньевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">47 06</Value>
+		<Value xsi:type="xs:string">109253</Value>
+		<Value xsi:type="xs:dateTime">2007-05-22T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделом УФМС России по Мурманской области в Ленинском АО города Мурманска</Value>
+		<Value xsi:type="xs:string">Смоленская обл., г. Смоленск, ул. Генерала Паскевича, дом 27, кв.52.</Value>
+		<Value xsi:type="xs:string">Смоленская обл., г. Смоленск, ул. Генерала Паскевича, дом 27, кв.52.</Value>
+		<Value xsi:type="xs:string">+7 (950) 892-40-30</Value>
+		<Value xsi:type="xs:string">avienir6262@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">115</Value>
+		<Value xsi:type="xs:string">767-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-18T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5177200</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">767</Value>
+		<Value xsi:type="xs:string">Голубева Татьяна Анатольевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4015</Value>
+		<Value xsi:type="xs:string">481366</Value>
+		<Value xsi:type="xs:dateTime">2016-03-15T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 54 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Невском р-не
+			г.Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр.Героев, дом № 25, корпус 1, кв.682</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, пр-кт Героев, дом № 25, корпус 1, кв.682</Value>
+		<Value xsi:type="xs:string">+7 (921) 357-00-60</Value>
+		<Value xsi:type="xs:string">tanya03045@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">116</Value>
+		<Value xsi:type="xs:string">774-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5058200</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">774</Value>
+		<Value xsi:type="xs:string">Никитин Алексей Александрович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 05</Value>
+		<Value xsi:type="xs:string">669080</Value>
+		<Value xsi:type="xs:dateTime">2005-08-03T00:00:00</Value>
+		<Value xsi:type="xs:string">8 отделом милиции Кировского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Ленинский, дом № 64, корпус 1 лит. А, кв.27</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Ленинский, дом № 64, корпус 1 лит. А, кв.27</Value>
+		<Value xsi:type="xs:string">+7 (904) 611-77-22</Value>
+		<Value xsi:type="xs:string">drumnalex@list.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">117</Value>
+		<Value xsi:type="xs:string">777-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5362100</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">777</Value>
+		<Value xsi:type="xs:string">Коваль Лариса Леонидовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">22 08</Value>
+		<Value xsi:type="xs:string">231517</Value>
+		<Value xsi:type="xs:dateTime">2008-10-28T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделением УФМС России по Нижегородской обл. в Богородском р-не</Value>
+		<Value xsi:type="xs:string">Нижегородская область, Богородский район, с. Алешково, ул. Молодежная, д.18, кв.2
+		</Value>
+		<Value xsi:type="xs:string">Нижегородская область, Богородский район, с. Алешково, ул. Молодежная, д.18, кв.2
+		</Value>
+		<Value xsi:type="xs:string">+7 (910) 397-65-20</Value>
+		<Value xsi:type="xs:string">lkoval@semexrussia.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">118</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4736700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">778</Value>
+		<Value xsi:type="xs:string">Тимофеев Максим Константинович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 03</Value>
+		<Value xsi:type="xs:string">951774</Value>
+		<Value xsi:type="xs:dateTime">2003-05-28T00:00:00</Value>
+		<Value xsi:type="xs:string">26 отделом милиции Красногвардейского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Солдата Корзуна, д.4, кв.195</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Солдата Корзуна, д.4, кв.195</Value>
+		<Value xsi:type="xs:string">+7 (905) 236-34-57</Value>
+		<Value xsi:type="xs:string">makdroidredz@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">119</Value>
+		<Value xsi:type="xs:string">780-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-25T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7475450</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">780</Value>
+		<Value xsi:type="xs:string">Глебов Олег Викторович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 05</Value>
+		<Value xsi:type="xs:string">636638</Value>
+		<Value xsi:type="xs:dateTime">2005-06-15T00:00:00</Value>
+		<Value xsi:type="xs:string">45 отделом милиции Невского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Дмитрия Устинова, д.5, кв.41</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Дмитрия Устинова, д.5, кв.41</Value>
+		<Value xsi:type="xs:string">+7 (981) 700-40-12</Value>
+		<Value xsi:type="xs:string">fehtun@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">120</Value>
+		<Value xsi:type="xs:string">782-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5280744</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">782</Value>
+		<Value xsi:type="xs:string">Колобов Алексей Игоревич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4007</Value>
+		<Value xsi:type="xs:string">406746</Value>
+		<Value xsi:type="xs:dateTime">2008-07-02T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №51 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Московском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Костюшко, дом 86, кв. 47</Value>
+		<Value xsi:type="xs:string">196240, гор. Санкт-Петербург, ул. Костюшко, дом 86, кв. 47</Value>
+		<Value xsi:type="xs:string">+7 (921) 953-01-45</Value>
+		<Value xsi:type="xs:string">Kolobovalexei@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">121</Value>
+		<Value xsi:type="xs:string">785-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-06T00:00:00</Value>
+		<Value xsi:type="xs:decimal">8533000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">785</Value>
+		<Value xsi:type="xs:string">Винек Анастасия Карэновна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 04</Value>
+		<Value xsi:type="xs:string">590659</Value>
+		<Value xsi:type="xs:dateTime">2003-09-01T00:00:00</Value>
+		<Value xsi:type="xs:string">74 Отделом милиции Красносельского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, р-н Фрунзенский, пр-кт Славы, дом. 2, корп. 1, кв.7</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр-кт Славы, дом. 2, корп. 1, кв.7</Value>
+		<Value xsi:type="xs:string">+7 (921) 364-28-22</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">122</Value>
+		<Value xsi:type="xs:string">793-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-15T00:00:00</Value>
+		<Value xsi:type="xs:decimal">3892380</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">793</Value>
+		<Value xsi:type="xs:string">Николаев Александр Анатольевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4104</Value>
+		<Value xsi:type="xs:string">776385</Value>
+		<Value xsi:type="xs:dateTime">2005-11-29T00:00:00</Value>
+		<Value xsi:type="xs:string">Сосновоборским ГОВД Ленинградской области</Value>
+		<Value xsi:type="xs:string">Ленинградская область, г. Сосновый Бор, Проспект Героев, дом 33 б, кв.76</Value>
+		<Value xsi:type="xs:string">188541, Ленинградская область, г. Сосновый Бор, Проспект Героев, дом 33 б, кв.76
+		</Value>
+		<Value xsi:type="xs:string">+7 (921) 425-99-24</Value>
+		<Value xsi:type="xs:string">alexandrnikolaev@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">123</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7441700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">804</Value>
+		<Value xsi:type="xs:string">Джавршян Вячеслав Францевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 11</Value>
+		<Value xsi:type="xs:string">409582</Value>
+		<Value xsi:type="xs:dateTime">2012-05-17T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №41 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Красносельский р-н, пр. Маршала Жукова, дом 33, корп.1,
+			кв.216.
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Доблести, дом 24, корп.1, кв.313</Value>
+		<Value xsi:type="xs:string">+7 (962) 725-29-07</Value>
+		<Value xsi:type="xs:string">droblino@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">124</Value>
+		<Value xsi:type="xs:string">807-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-22T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4821840</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">807</Value>
+		<Value xsi:type="xs:string">Колодеева Юлия Владимировна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">05 04</Value>
+		<Value xsi:type="xs:string">182211</Value>
+		<Value xsi:type="xs:dateTime">2006-12-07T00:00:00</Value>
+		<Value xsi:type="xs:string">Шкотовским РОВД Приморского края</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, р-н Красносельский, пр-кт Ленинский, дом 78, корп.1, кв. 306
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Ленинский, дом 78, корп.1, кв. 306</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">125</Value>
+		<Value xsi:type="xs:string">811-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-05T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4652770</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">811</Value>
+		<Value xsi:type="xs:string">Тарасов Павел Владиленович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 18</Value>
+		<Value xsi:type="xs:string">142814</Value>
+		<Value xsi:type="xs:dateTime">2018-09-26T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, Кировский р-н, ул. Маршала Казакова, дом № 10, корпус 1, кв.278
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Кировский р-н, ул. Маршала Казакова, дом № 10, корпус 1,
+			кв.276
+		</Value>
+		<Value xsi:type="xs:string">+7 (911) 211-35-96</Value>
+		<Value xsi:type="xs:string">tpv911@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">126</Value>
+		<Value xsi:type="xs:string">812-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6031808</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">812</Value>
+		<Value xsi:type="xs:string">Короткова Марина Исмагиловна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">7503</Value>
+		<Value xsi:type="xs:string">935869</Value>
+		<Value xsi:type="xs:dateTime">2003-11-03T00:00:00</Value>
+		<Value xsi:type="xs:string">ОВД Правобережного р-на гор.Магнитогорска Челябинской обл.</Value>
+		<Value xsi:type="xs:string">обл. Челябинская, г. Магнитогорск, ул. Маяковского, д.19 корп.2, кв. 18</Value>
+		<Value xsi:type="xs:string">обл. Челябинская, г. Магнитогорск, ул. Маяковского, д.19 корп.2, кв. 18</Value>
+		<Value xsi:type="xs:string">+7 (906) 898-12-01</Value>
+		<Value xsi:type="xs:string">korotkova-1977@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">127</Value>
+		<Value xsi:type="xs:string">814-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-29T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4160700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">814</Value>
+		<Value xsi:type="xs:string">Виноградова Анна Андреевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 18</Value>
+		<Value xsi:type="xs:string">027853</Value>
+		<Value xsi:type="xs:dateTime">2018-05-03T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Маршала Захарова, дом № 14, корпус 4, кв.30</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Маршала Захарова, дом № 14, корпус 4, кв.30</Value>
+		<Value xsi:type="xs:string">+7 (999) 515-50-39</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">128</Value>
+		<Value xsi:type="xs:string">815-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4690677</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">815</Value>
+		<Value xsi:type="xs:string">Петров Дмитрий Николаевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 09</Value>
+		<Value xsi:type="xs:string">811845</Value>
+		<Value xsi:type="xs:dateTime">2009-07-21T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 28 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр. Маршала Жукова, д.32, корп.1, кв.47</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр. Маршала Жукова, д.32, корп.1, кв.47</Value>
+		<Value xsi:type="xs:string">+7 (901) 371-78-22</Value>
+		<Value xsi:type="xs:string">lt76@list.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">129</Value>
+		<Value xsi:type="xs:string">817-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-19T00:00:00</Value>
+		<Value xsi:type="xs:decimal">10668700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">817</Value>
+		<Value xsi:type="xs:string">Лобачева Виктория Михайловна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4005</Value>
+		<Value xsi:type="xs:string">739650</Value>
+		<Value xsi:type="xs:dateTime">2005-12-21T00:00:00</Value>
+		<Value xsi:type="xs:string">54 отделом милиции Красносельского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Речная, дом 9А, ч/д</Value>
+		<Value xsi:type="xs:string">198260, г. Санкт-Петербург, ул. Речная, дом 9А, ч/д</Value>
+		<Value xsi:type="xs:string">+7 (911) 020-35-55</Value>
+		<Value xsi:type="xs:string">toril85@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">130</Value>
+		<Value xsi:type="xs:string">819-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4594534</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">819</Value>
+		<Value xsi:type="xs:string">Добрянская Елена Васильевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">7416</Value>
+		<Value xsi:type="xs:string">920868</Value>
+		<Value xsi:type="xs:dateTime">2016-07-12T00:00:00</Value>
+		<Value xsi:type="xs:string">отделом УФМС России по Ямало-Ненецкому автономному округу в г. Муравленко</Value>
+		<Value xsi:type="xs:string">Ямало-Ненецкий АО, гор. Муравленко, ул. Нефтяников, дом 79, кв. 14</Value>
+		<Value xsi:type="xs:string">Ямало-Ненецкий АО, гор. Муравленко, ул. Нефтяников, дом 79, кв. 14</Value>
+		<Value xsi:type="xs:string">+7 (921) 091-26-09</Value>
+		<Value xsi:type="xs:string">l.dobraya@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">131</Value>
+		<Value xsi:type="xs:string">826-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-15T00:00:00</Value>
+		<Value xsi:type="xs:decimal">3880895</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">826</Value>
+		<Value xsi:type="xs:string">Жминько Татьяна Николаевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">74 03</Value>
+		<Value xsi:type="xs:string">421773</Value>
+		<Value xsi:type="xs:dateTime">2003-10-10T00:00:00</Value>
+		<Value xsi:type="xs:string">УВД города Ноябрьска Ямало-Ненецкого автономного округа Тюменской области</Value>
+		<Value xsi:type="xs:string">г. Ноябрьск, ул. Ленина, дом №34, кв.5</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр. Ленинский пр., стр.1, кв.460</Value>
+		<Value xsi:type="xs:string">+7 (922) 052-37-67</Value>
+		<Value xsi:type="xs:string">zhminko80@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">132</Value>
+		<Value xsi:type="xs:string">827-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-10T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5062890</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">827</Value>
+		<Value xsi:type="xs:string">Иванов Сергей Сергеевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 10</Value>
+		<Value xsi:type="xs:string">045448</Value>
+		<Value xsi:type="xs:dateTime">2010-07-09T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 28 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, Кировский р-н, Ленинский пр-кт, дом 114, лит. А, кв.752.</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, Кировский р-н, Ленинский пр-кт, дом 114, лит. А, кв.752.</Value>
+		<Value xsi:type="xs:string">+7 (951) 680-50-66</Value>
+		<Value xsi:type="xs:string">ivanov_s.s@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">133</Value>
+		<Value xsi:type="xs:string">828-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7500000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">828</Value>
+		<Value xsi:type="xs:string">Насиров Мирджалал Мирджафар оглы</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 08</Value>
+		<Value xsi:type="xs:string">630431</Value>
+		<Value xsi:type="xs:dateTime">2009-02-02T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 40 отдела УФМС России по Санкт-петербургу и Ленинградской обл. в Красносельском
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Партизана Германа, д.17, кв,41</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Партизана Германа, д.17, кв,41</Value>
+		<Value xsi:type="xs:string">+7 (964) 320-99-94</Value>
+		<Value xsi:type="xs:string">agam87879@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">134</Value>
+		<Value xsi:type="xs:string">845-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-03T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6915450</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">845</Value>
+		<Value xsi:type="xs:string">Парнашвили Екатерина Ильинична</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 18</Value>
+		<Value xsi:type="xs:string">191432</Value>
+		<Value xsi:type="xs:dateTime">2018-11-09T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр. Народного Ополчения, д.10, кв.993</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр. Народного Ополчения, д.10, кв.993</Value>
+		<Value xsi:type="xs:string">+7 (921) 911-09-61</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">135</Value>
+		<Value xsi:type="xs:string">846-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-27T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4652770</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">846</Value>
+		<Value xsi:type="xs:string">Пинчук Ольга Евгеньевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 20</Value>
+		<Value xsi:type="xs:string">612291</Value>
+		<Value xsi:type="xs:dateTime">2020-07-10T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Маршала Захарова, д.17, к.2, кв.112</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Маршала Захарова, д.17, к.2, кв.112</Value>
+		<Value xsi:type="xs:string">+7 (960) 265-77-92</Value>
+		<Value xsi:type="xs:string">pinchukolga@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">136</Value>
+		<Value xsi:type="xs:string">849-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-15T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6908750</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">849</Value>
+		<Value xsi:type="xs:string">Киргизова Елена Мурадовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 14</Value>
+		<Value xsi:type="xs:string">049850</Value>
+		<Value xsi:type="xs:dateTime">2014-08-17T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №39 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не г. Санкт-петербурга
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Адмиралтейский р-н, ул. Курляндская, д.27.</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Адмиралтейский р-н, ул. Курляндская, д.27.</Value>
+		<Value xsi:type="xs:string">+7 (981) 725-17-15</Value>
+		<Value xsi:type="xs:string">vieliena.kharina@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">137</Value>
+		<Value xsi:type="xs:string">850-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4828540</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">850</Value>
+		<Value xsi:type="xs:string">Горчаков Сергей Владимирович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">41 11</Value>
+		<Value xsi:type="xs:string">382562</Value>
+		<Value xsi:type="xs:dateTime">2011-10-20T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделением УФМС России по Санкт-Петербургу и Ленинградской обл. в гор. Сосновый
+			бор
+		</Value>
+		<Value xsi:type="xs:string">Ленинградская обл. гор. Сосновый бор, Липовский проезд, дом 17, кв.40.</Value>
+		<Value xsi:type="xs:string">Ленинградская обл. гор. Сосновый бор, Липовский проезд, дом 19А, кв.10.</Value>
+		<Value xsi:type="xs:string">+7 (921) 098-74-01</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">138</Value>
+		<Value xsi:type="xs:string">853-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-14T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6600000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">853</Value>
+		<Value xsi:type="xs:string">Федоров Роман Олегович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4005</Value>
+		<Value xsi:type="xs:string">749828</Value>
+		<Value xsi:type="xs:dateTime">2005-11-15T00:00:00</Value>
+		<Value xsi:type="xs:string">66 отделом милиции Красногвардейского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Маршала Захарова, д. 14, к.2, кв. 64</Value>
+		<Value xsi:type="xs:string">198335, г. Санкт-Петербург, ул. Маршала Захарова, д. 14, к.2, кв. 64</Value>
+		<Value xsi:type="xs:string">+7 (950) 028-32-32</Value>
+		<Value xsi:type="xs:string">roman-eon@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">139</Value>
+		<Value xsi:type="xs:string">854-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-18T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4392850</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">854</Value>
+		<Value xsi:type="xs:string">Гаврилова Мария Сергеевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 13</Value>
+		<Value xsi:type="xs:string">752378</Value>
+		<Value xsi:type="xs:dateTime">2013-08-02T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 40 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Добровольцев, д.4, кв.31</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт, Героев, дом 27, корп.1, кв.24
+		</Value>
+		<Value xsi:type="xs:string">+7 (981) 770-70-79</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">140</Value>
+		<Value xsi:type="xs:string">856-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-03T00:00:00</Value>
+		<Value xsi:type="xs:decimal">9943080</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">856</Value>
+		<Value xsi:type="xs:string">Проскуряков Алексей Анатольевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4017</Value>
+		<Value xsi:type="xs:string">818699</Value>
+		<Value xsi:type="xs:dateTime">2017-07-07T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №23 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Калининском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Калининский р-н, ул. Верности, д.17, лит.А., кв.94</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Верности, д.17, лит.А., кв.94</Value>
+		<Value xsi:type="xs:string">+7 (921) 345-24-02</Value>
+		<Value xsi:type="xs:string">alexpro1972@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">141</Value>
+		<Value xsi:type="xs:string">857-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-02T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6915450</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">857</Value>
+		<Value xsi:type="xs:string">Денежкина Александра Николаевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">11 04</Value>
+		<Value xsi:type="xs:string">012978</Value>
+		<Value xsi:type="xs:dateTime">2003-08-09T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделом Внутренних дел г. Мирный Архангельской области</Value>
+		<Value xsi:type="xs:string">обл. Мурманская, г. Полярный, ул. Комсомольская, д.19, стр.1</Value>
+		<Value xsi:type="xs:string">обл. Мурманская, г. Полярный, ул. Комсомольская, д.19, стр.1</Value>
+		<Value xsi:type="xs:string">+7 (921) 033-95-10</Value>
+		<Value xsi:type="xs:string">D-e-n-e-z-h-k-a@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">142</Value>
+		<Value xsi:type="xs:string">858-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4952890</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">858</Value>
+		<Value xsi:type="xs:string">Иванова Татьяна Юрьевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 16</Value>
+		<Value xsi:type="xs:string">698661</Value>
+		<Value xsi:type="xs:dateTime">2016-12-27T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №29 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Кировский р-н, пр-кт Ленинский, дом № 114, кв.475</Value>
+		<Value xsi:type="xs:string">198207, гор. Санкт-Петербург, Ленинский пр., дом № 114, кв.709</Value>
+		<Value xsi:type="xs:string">+7 (921) 752-09-69</Value>
+		<Value xsi:type="xs:string">ivanova@kwi.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">143</Value>
+		<Value xsi:type="xs:string">861-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-18T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7662479</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">861</Value>
+		<Value xsi:type="xs:string">Смирнов Вадим Вячеславович</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">144</Value>
+		<Value xsi:type="xs:string">864-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-04T00:00:00</Value>
+		<Value xsi:type="xs:decimal">10146000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">864</Value>
+		<Value xsi:type="xs:string">Корсакова Елена Николаевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 19</Value>
+		<Value xsi:type="xs:string">322662</Value>
+		<Value xsi:type="xs:dateTime">2019-05-13T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Маршала Блюхера, дом № 38, корпус 3, кв.21</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-кт Маршала Блюхера, дом № 38, корпус 3, кв.21</Value>
+		<Value xsi:type="xs:string">+7 (911) 013-98-88</Value>
+		<Value xsi:type="xs:string">79110138999@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">145</Value>
+		<Value xsi:type="xs:string">869-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7053625</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">869</Value>
+		<Value xsi:type="xs:string">Савостенок Наталья Андреевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4008</Value>
+		<Value xsi:type="xs:string">602892</Value>
+		<Value xsi:type="xs:dateTime">2008-12-02T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №68 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Приморском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Приморский р-н, Туристская ул., д.11, корп.1, кв.115</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Приморский р-н, Туристская ул., д.11, корп.1, кв.115</Value>
+		<Value xsi:type="xs:string">+7 (969) 716-72-60</Value>
+		<Value xsi:type="xs:string">natasha_5@inbox.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">146</Value>
+		<Value xsi:type="xs:string">881-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-16T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5177200</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">881</Value>
+		<Value xsi:type="xs:string">Моисеева Людмила Валентиновна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 05</Value>
+		<Value xsi:type="xs:string">499827</Value>
+		<Value xsi:type="xs:dateTime">2004-12-23T00:00:00</Value>
+		<Value xsi:type="xs:string">76 Отделом милиции Центрального района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Фурштатская, дом №37, кв.7</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Фурштатская, дом №37, кв.7</Value>
+		<Value xsi:type="xs:string">+7 (921) 439-40-58</Value>
+		<Value xsi:type="xs:string">mihas99@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">147</Value>
+		<Value xsi:type="xs:string">886-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-26T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5183900</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">886</Value>
+		<Value xsi:type="xs:string">Витрикуш Юлия Владимировна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4002</Value>
+		<Value xsi:type="xs:string">346005</Value>
+		<Value xsi:type="xs:dateTime">2002-04-29T00:00:00</Value>
+		<Value xsi:type="xs:string">74 отделом милиции Красносельского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр-т Кузнецова, дом 20, кв. 118</Value>
+		<Value xsi:type="xs:string">198328, г. Санкт-Петербург, пр-т Кузнецова, дом 20, кв. 118</Value>
+		<Value xsi:type="xs:string">+7 (911) 999-90-24</Value>
+		<Value xsi:type="xs:string">vitri7@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">148</Value>
+		<Value xsi:type="xs:string">888-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-24T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7541700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">888</Value>
+		<Value xsi:type="xs:string">Семичаевская Раиса Анатольевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4013</Value>
+		<Value xsi:type="xs:string">967358</Value>
+		<Value xsi:type="xs:dateTime">2014-04-10T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №24 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			г.Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, ул.Трефолева, дом № 27, кв.11</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, Мурманская обл., Печенгский р-н,, пгт Никель, пр-кт Гвардейский,
+			дом № 37, кв.165
+		</Value>
+		<Value xsi:type="xs:string">+7 (903) 099-31-57</Value>
+		<Value xsi:type="xs:string">semichaevskaya.raisa@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">149</Value>
+		<Value xsi:type="xs:string">889-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-31T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5526000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">889</Value>
+		<Value xsi:type="xs:string">Запека Марина Геннадьевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4010</Value>
+		<Value xsi:type="xs:string">259153</Value>
+		<Value xsi:type="xs:dateTime">2011-06-10T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №29 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр. Маршала Жукова, дом 60, корп. 2, кв. 27</Value>
+		<Value xsi:type="xs:string">198261, гор. Санкт-Петербург, пр. Маршала Жукова, дом 60, корп. 2, кв. 27</Value>
+		<Value xsi:type="xs:string">+7 (905) 230-39-90</Value>
+		<Value xsi:type="xs:string">marishabos@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">150</Value>
+		<Value xsi:type="xs:string">891-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-18T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5656000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">891</Value>
+		<Value xsi:type="xs:string">Карпов Александр Леонидович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 05</Value>
+		<Value xsi:type="xs:string">887382</Value>
+		<Value xsi:type="xs:dateTime">2006-03-31T00:00:00</Value>
+		<Value xsi:type="xs:string">4 Отделом милиции Фрунзенского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., р-н Приозерский, пос. Кротово</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., р-н Приозерский, пос. Кротово</Value>
+		<Value xsi:type="xs:string">+7 (921) 914-04-72</Value>
+		<Value xsi:type="xs:string">karpov61@bk.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">151</Value>
+		<Value xsi:type="xs:string">896-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-18T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5662376</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">896</Value>
+		<Value xsi:type="xs:string">Новоселова Светлана Олеговна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">0804</Value>
+		<Value xsi:type="xs:string">328865</Value>
+		<Value xsi:type="xs:dateTime">2004-08-24T00:00:00</Value>
+		<Value xsi:type="xs:string">ОВД Ленинского округа гор. Комсомольска-на-Амуре Хабаровского края</Value>
+		<Value xsi:type="xs:string">Хабаровский край, г. Комсомольск-на-Амуре, ул. Калинина, дом № 24, кв.42</Value>
+		<Value xsi:type="xs:string">Хабаровский край, г. Комсомольск-на-Амуре, ул. Калинина, дом № 24, кв.42</Value>
+		<Value xsi:type="xs:string">+7 (924) 221-86-00</Value>
+		<Value xsi:type="xs:string">mitya.novoselov.82 &lt;mitya.novoselov.82@mail.ru&gt;</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">152</Value>
+		<Value xsi:type="xs:string">898-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-03T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7671930</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">898</Value>
+		<Value xsi:type="xs:string">Морозова Инна Ивановна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 08</Value>
+		<Value xsi:type="xs:string">480661</Value>
+		<Value xsi:type="xs:dateTime">2008-04-09T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 54 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Невском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">ранее зарегистрирована по адресу: гор. Санкт-Петербург, ул. Народная, д. 68, корп.1,
+			кв.224
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Ленинский пр., д.55, корп.2, кв.447</Value>
+		<Value xsi:type="xs:string">+7 (981) 975-48-43</Value>
+		<Value xsi:type="xs:string">morozovainna0306@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">153</Value>
+		<Value xsi:type="xs:string">899-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-21T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5637000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">899</Value>
+		<Value xsi:type="xs:string">Подпругин Владислав Владимирович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 20</Value>
+		<Value xsi:type="xs:string">714103</Value>
+		<Value xsi:type="xs:dateTime">2020-11-11T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г. Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, б-р Балтийский, д.4, стр.1, кв.592</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, б-р Балтийский, д.4, стр.1, кв.592</Value>
+		<Value xsi:type="xs:string">+7 (921) 381-73-64</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">154</Value>
+		<Value xsi:type="xs:string">900-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4165850</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">900</Value>
+		<Value xsi:type="xs:string">Петрова Татьяна Григорьевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">71 10</Value>
+		<Value xsi:type="xs:string">811588</Value>
+		<Value xsi:type="xs:dateTime">2010-11-02T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделом УФМС России по Тюменской обл. в Центральном АО города Тюмени</Value>
+		<Value xsi:type="xs:string">Тюменская обл., г. Тюмень, проезд 6-й Слободской, дом 32.</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Розенштейна, дом 18, кв.105.</Value>
+		<Value xsi:type="xs:string">+7 (932) 471-74-00</Value>
+		<Value xsi:type="xs:string">tatiana.petrova.12@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">155</Value>
+		<Value xsi:type="xs:string">903-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-04T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7535000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">903</Value>
+		<Value xsi:type="xs:string">Лебедев Евгений Борисович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 07</Value>
+		<Value xsi:type="xs:string">399678</Value>
+		<Value xsi:type="xs:dateTime">2008-05-06T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 39 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Тамбасова, д.2, корп.3, кв.102</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Тамбасова, д.2, корп.3, кв.102</Value>
+		<Value xsi:type="xs:string">+7 (921) 905-20-00</Value>
+		<Value xsi:type="xs:string">lebedev.e@nevastar.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">156</Value>
+		<Value xsi:type="xs:string">904-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-21T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4800000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">904</Value>
+		<Value xsi:type="xs:string">Ильин Андрей Игоревич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4002</Value>
+		<Value xsi:type="xs:string">345115</Value>
+		<Value xsi:type="xs:dateTime">2002-04-14T00:00:00</Value>
+		<Value xsi:type="xs:string">74 отделом милиции Красносельского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Доблести, дом № 26, корпус 2, кв.47</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, ул.Доблести, дом № 26, корпус 2, кв.47</Value>
+		<Value xsi:type="xs:string">+7 (921) 858-21-18</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">157</Value>
+		<Value xsi:type="xs:string">906-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-25T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6162700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">906</Value>
+		<Value xsi:type="xs:string">Бугрим Юрий Александрович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">7414</Value>
+		<Value xsi:type="xs:string">860212</Value>
+		<Value xsi:type="xs:dateTime">2014-05-27T00:00:00</Value>
+		<Value xsi:type="xs:string">отдел УФМС России по Ямало-Ненецкому автономному округу в г. Муравленко</Value>
+		<Value xsi:type="xs:string">Ямало-Ненецкий автономный округ, гор. Муравленко, ул. Муравленко, дом 41, кв. 36
+		</Value>
+		<Value xsi:type="xs:string">629604, Ямало-Ненецкий автономный округ, гор. Муравленко, ул. Муравленко, дом 41,
+			кв. 36
+		</Value>
+		<Value xsi:type="xs:string">+7 (929) 254-47-63</Value>
+		<Value xsi:type="xs:string">bugrim1969@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">158</Value>
+		<Value xsi:type="xs:string">908-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-03T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7541700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">908</Value>
+		<Value xsi:type="xs:string">Фомина Елена Леонидовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4014</Value>
+		<Value xsi:type="xs:string">234928</Value>
+		<Value xsi:type="xs:dateTime">2015-03-18T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 26 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			г.Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, пр-кт Народного ополчения, дом № 10, кв.1050</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, пр-кт Народного ополчения, дом № 10, кв.1050</Value>
+		<Value xsi:type="xs:string">+7 (981) 768-91-58</Value>
+		<Value xsi:type="xs:string">poi586@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">159</Value>
+		<Value xsi:type="xs:string">911-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-04-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5960000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">911</Value>
+		<Value xsi:type="xs:string">Лутовин Павел Юрьевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 08</Value>
+		<Value xsi:type="xs:string">704449</Value>
+		<Value xsi:type="xs:dateTime">2009-03-25T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 26 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Бул. Новаторов, д.23, кв.54</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Бул. Новаторов, д.23, кв.54</Value>
+		<Value xsi:type="xs:string">+7 (911) 010-26-57</Value>
+		<Value xsi:type="xs:string"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">160</Value>
+		<Value xsi:type="xs:string">913-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7685700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">913</Value>
+		<Value xsi:type="xs:string">Назарова Мария Юрьевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 02</Value>
+		<Value xsi:type="xs:string">346514</Value>
+		<Value xsi:type="xs:dateTime">2002-05-16T00:00:00</Value>
+		<Value xsi:type="xs:string">74 Отделом милиции Красносельского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Маршала Захарова, дом 9, кв. 93</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Маршала Захарова, дом 9, кв. 93</Value>
+		<Value xsi:type="xs:string">+7 (951) 652-43-53</Value>
+		<Value xsi:type="xs:string">kedi.77@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">161</Value>
+		<Value xsi:type="xs:string">918-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-09T00:00:00</Value>
+		<Value xsi:type="xs:decimal">9313821</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">918</Value>
+		<Value xsi:type="xs:string">Хавкунова Ольга</Value>
+		<Value xsi:type="xs:string">Паспорт иностранного гражданина</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">12766531</Value>
+		<Value xsi:type="xs:dateTime">2019-12-23T00:00:00</Value>
+		<Value xsi:type="xs:string">Министерством внутренних дел</Value>
+		<Value xsi:type="xs:string">Казахстан, г. Астана, Алматы район, ул. Каныш Сэтбаев, дом № 11/3, кв.9</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">Olga Khavkunova &lt;olgavaleri17@gmail.com&gt;</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">162</Value>
+		<Value xsi:type="xs:string">919-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-13T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5636192</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">919</Value>
+		<Value xsi:type="xs:string">Копчак Дарья Викторовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 00</Value>
+		<Value xsi:type="xs:string">744990</Value>
+		<Value xsi:type="xs:dateTime">2001-09-17T00:00:00</Value>
+		<Value xsi:type="xs:string">6 отделом милиции Калининского раона Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Красносельский р-н, Ленинский пр., дом № 76, корпус 1, кв.884
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Ленинский пр., дом № 76, корпус 1, кв.834</Value>
+		<Value xsi:type="xs:string">+79 (911) 176-86-86</Value>
+		<Value xsi:type="xs:string">dvkoph@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">163</Value>
+		<Value xsi:type="xs:string">948-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-02T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5634684</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">948</Value>
+		<Value xsi:type="xs:string">Владимирова Ирина Викторовна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 14</Value>
+		<Value xsi:type="xs:string">206594</Value>
+		<Value xsi:type="xs:dateTime">2015-01-20T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №39 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Красносельском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Чекистов, дом 26, кв.46.</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Чекистов, дом 26, кв.46.</Value>
+		<Value xsi:type="xs:string">+7 (904) 613-90-86</Value>
+		<Value xsi:type="xs:string">vladimirova.i.v@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">164</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6259000</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">952</Value>
+		<Value xsi:type="xs:string">Перов Иван Васильевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 12</Value>
+		<Value xsi:type="xs:string">616185</Value>
+		<Value xsi:type="xs:dateTime">2013-01-23T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 29 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр. Маршала Жукова, д.48, корп.1, кв.174</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр. Маршала Жукова, д.48, корп.1, кв.174</Value>
+		<Value xsi:type="xs:string">+7 (921) 916-28-05</Value>
+		<Value xsi:type="xs:string">perov1951@gmail.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">165</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:dateTime">0001-01-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6215700</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">960</Value>
+		<Value xsi:type="xs:string">Грипекин Даниил Викторович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">7716</Value>
+		<Value xsi:type="xs:string">103161</Value>
+		<Value xsi:type="xs:dateTime">2017-01-20T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП ОФМС России по Чукотскому автономному округу в городском округе Анадырь</Value>
+		<Value xsi:type="xs:string">АО Чукотский, гор.Анадырь, ул.Тевлянто, дом № 8, кв.12</Value>
+		<Value xsi:type="xs:string">АО Чукотский, гор.Анадырь, ул.Тевлянто, дом № 8, кв.12</Value>
+		<Value xsi:type="xs:string">+7</Value>
+		<Value xsi:type="xs:string">gripekin@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">166</Value>
+		<Value xsi:type="xs:string">968-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5634684</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">968</Value>
+		<Value xsi:type="xs:string">Уханова Светлана Андреевна</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4007</Value>
+		<Value xsi:type="xs:string">026306</Value>
+		<Value xsi:type="xs:dateTime">2006-08-29T00:00:00</Value>
+		<Value xsi:type="xs:string">32 отделом милиции Невского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Ново-Александровская, дом № 25, кв.42</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Ново-Александровская, дом № 25, кв.42</Value>
+		<Value xsi:type="xs:string">+7 (904) 610-77-90</Value>
+		<Value xsi:type="xs:string">u-s@list.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">167</Value>
+		<Value xsi:type="xs:string">971-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2020-12-29T00:00:00</Value>
+		<Value xsi:type="xs:decimal">3648683</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">971</Value>
+		<Value xsi:type="xs:string">Байрамов Акбер Аташ оглы</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 14</Value>
+		<Value xsi:type="xs:string">162575</Value>
+		<Value xsi:type="xs:dateTime">2015-01-26T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 29 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Кировском р-не
+			г. Санкт-Петербургу
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, Кировский р-н, пр-кт Ветеранов, дом № 114, корпус 1, кв.88
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр. Ветеранов, дом № 114, корпус 1, кв.88</Value>
+		<Value xsi:type="xs:string">+7 (911) 949-56-34</Value>
+		<Value xsi:type="xs:string">alik19967@icloud.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">168</Value>
+		<Value xsi:type="xs:string">972-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-01T00:00:00</Value>
+		<Value xsi:type="xs:decimal">6029052</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">972</Value>
+		<Value xsi:type="xs:string">Скоков Михаил Сергеевич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 05</Value>
+		<Value xsi:type="xs:string">449882</Value>
+		<Value xsi:type="xs:dateTime">2004-11-05T00:00:00</Value>
+		<Value xsi:type="xs:string">74 отделом милиции Красносельского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Петергофское шос., дом № 11/21, кв.516</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, Петергофское шос., дом № 11/21, кв.516</Value>
+		<Value xsi:type="xs:string">+7 (921) 952-12-80</Value>
+		<Value xsi:type="xs:string">Михаил С &lt;9521280@mail.ru&gt;</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">169</Value>
+		<Value xsi:type="xs:string">973-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">7368111</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">973</Value>
+		<Value xsi:type="xs:string">Литвинов Алексей Михайлович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">4018</Value>
+		<Value xsi:type="xs:string">244754</Value>
+		<Value xsi:type="xs:dateTime">2018-12-27T00:00:00</Value>
+		<Value xsi:type="xs:string">ГУ МВД России по г.Санкт-Петербургу и Ленинградской области</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, п. Шушары, ул.Полоцкая, дом № 14, корпус 1, кв.75</Value>
+		<Value xsi:type="xs:string">г.Санкт-Петербург, ул.Маршала Захарова, дом № 29, корпус 2, кв.60</Value>
+		<Value xsi:type="xs:string">+7 (911) 738-32-14</Value>
+		<Value xsi:type="xs:string">Litalmih@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">170</Value>
+		<Value xsi:type="xs:string">975-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2020-12-29T00:00:00</Value>
+		<Value xsi:type="xs:decimal">3648683</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">975</Value>
+		<Value xsi:type="xs:string">Саядов Видади Вугар оглы</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 15</Value>
+		<Value xsi:type="xs:string">304672</Value>
+		<Value xsi:type="xs:dateTime">2015-08-28T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП № 13 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Выборгском
+			р-не г. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр.Ветеранов, дом № 114, корпус 1 лит.А, кв.88</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр.Ветеранов, дом № 114, корпус 1 лит.А, кв.88</Value>
+		<Value xsi:type="xs:string">+7 (911) 277-21-66</Value>
+		<Value xsi:type="xs:string">alik199967@icloud.com</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">171</Value>
+		<Value xsi:type="xs:string">976-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-02-02T00:00:00</Value>
+		<Value xsi:type="xs:decimal">5634684</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">976</Value>
+		<Value xsi:type="xs:string">Гурков Алексей Александрович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">41 08</Value>
+		<Value xsi:type="xs:string">056177</Value>
+		<Value xsi:type="xs:dateTime">2008-06-23T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №104 Отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Гатчинском
+			р-не
+		</Value>
+		<Value xsi:type="xs:string">Ленинградская обл., гор. Гатчина, ул. 7-й Армии, дом 15, кв. 98</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, пр. Ветеранов, д. 169, корп. 3, кв. 227</Value>
+		<Value xsi:type="xs:string">+7 (921) 372-73-05</Value>
+		<Value xsi:type="xs:string">gurkov.aleksei@mail.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">172</Value>
+		<Value xsi:type="xs:string">981-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-03-26T00:00:00</Value>
+		<Value xsi:type="xs:decimal">9481340</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">981</Value>
+		<Value xsi:type="xs:string">Орлов Ярослав Игоревич</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 11</Value>
+		<Value xsi:type="xs:string">519311</Value>
+		<Value xsi:type="xs:dateTime">2012-05-31T00:00:00</Value>
+		<Value xsi:type="xs:string">ТП №139 отдела УФМС России по Санкт-Петербургу и Ленинградской обл. в Центральном
+			р-не гор. Санкт-Петербурга
+		</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, ул. Маршала Захарова, дом № 30, корпус 1, кв.386</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, ул. Маршала Захарова, дом № 30, корпус 1, кв.386</Value>
+		<Value xsi:type="xs:string">+7 (921) 343-12-31</Value>
+		<Value xsi:type="xs:string">tsale@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">173</Value>
+		<Value xsi:type="xs:string">983-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-11T00:00:00</Value>
+		<Value xsi:type="xs:decimal">3821656</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">983</Value>
+		<Value xsi:type="xs:string">Дроевский Аркадий Борисович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">40 05</Value>
+		<Value xsi:type="xs:string">779572</Value>
+		<Value xsi:type="xs:dateTime">2005-11-30T00:00:00</Value>
+		<Value xsi:type="xs:string">40 отделом милиции Фрунзенского района Санкт-Петербурга</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, г. Петергоф, пр-кт Петербургский, д. 29, кв. 12</Value>
+		<Value xsi:type="xs:string">г. Санкт-Петербург, г. Петергоф, пр-кт Петербургский, д. 29, кв. 12</Value>
+		<Value xsi:type="xs:string">+7 (921) 966-33-22</Value>
+		<Value xsi:type="xs:string">homeabd@yandex.ru</Value>
+	</row>
+	<row>
+		<Value xsi:type="xs:decimal">174</Value>
+		<Value xsi:type="xs:string">995-08/ДП</Value>
+		<Value xsi:type="xs:dateTime">2021-01-12T00:00:00</Value>
+		<Value xsi:type="xs:decimal">4282858</Value>
+		<Value xsi:type="xs:string">Квартиры 8 корпус Огни Залива</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">995</Value>
+		<Value xsi:type="xs:string">Сахаватов Салават Нажмутдинович</Value>
+		<Value xsi:type="xs:string">паспорт</Value>
+		<Value xsi:type="xs:string">82 10</Value>
+		<Value xsi:type="xs:string">860189</Value>
+		<Value xsi:type="xs:dateTime">2010-06-29T00:00:00</Value>
+		<Value xsi:type="xs:string">Отделением УФМС России по Республике Дагестан в Буйнакском районе</Value>
+		<Value xsi:type="xs:string">Республика Дагестан, г. Буйнакск, ул. Аликълыча, д.4,</Value>
+		<Value xsi:type="xs:string">гор. Санкт-Петербург, пр. Маршала Казакова, д. 84, корп.1, кв.329</Value>
+		<Value xsi:type="xs:string">+7 (928) 547-43-43</Value>
+		<Value xsi:type="xs:string">sahavatovsalavat1983@gmail.com</Value>
+	</row>
+</ValueTable>
